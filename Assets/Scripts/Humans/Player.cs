@@ -6,15 +6,11 @@ public enum Direction
     Left, Right
 }
 
-public enum ShootingType
-{
-    Skill, PowerUp
-}
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour, IMovable, IHuman {
     
-    private Direction direction;
+    public Direction direction;
     public GameObject PowerUp;
     public GameObject SkillPrefab;
 
@@ -35,6 +31,7 @@ public class Player : MonoBehaviour, IMovable, IHuman {
             if (projectileSprite != null && projectileRigidBody != null)
             {
                 Skill skillScript = SkillPrefab.GetComponent<Skill>();
+                skillScript.direction = this.direction;
                 projectileSprite.sprite = skillScript.ShootingSprite;
                 skillScript.Move();
             }
@@ -68,7 +65,15 @@ public class Player : MonoBehaviour, IMovable, IHuman {
         float verticalSpeed = Input.GetAxis("Vertical");
         float horizontalSpeed = Input.GetAxis("Horizontal");
 
+        Rotate(horizontalSpeed);
+
         rigidbody.velocity = new Vector2(horizontalSpeed * Speed, verticalSpeed * Speed);
+    }
+
+    public void Rotate(float horizontalSpeed)
+    {
+        direction = horizontalSpeed > 0 ? Direction.Right : Direction.Left;
+        GetComponent<SpriteRenderer>().flipX = (direction == Direction.Left);
     }
 }
 
