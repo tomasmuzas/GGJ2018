@@ -308,6 +308,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee371d6bdbc3f49468aec3ebf6790d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PowerUp: {fileID: 0}
+  SkillPrefab: {fileID: 1450243771525818, guid: 1fa454b4a583e0a42b88347e0e4747f2,
+    type: 2}
 --- !u!212 &2045260010
 SpriteRenderer:
   m_ObjectHideFlags: 0
