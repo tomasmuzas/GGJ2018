@@ -73,7 +73,7 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     public void Rotate(float horizontalSpeed)
     {
         direction = horizontalSpeed > 0 ? Direction.Right : Direction.Left;
-        GetComponent<SpriteRenderer>().flipX = (direction == Direction.Left);
+        GetComponent<SpriteRenderer>().flipX = (direction == Direction.Right);
     }
 }
 
