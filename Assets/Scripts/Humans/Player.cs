@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public enum Direction
 {
@@ -47,7 +48,7 @@ public class Player : MonoBehaviour, IMovable, IHuman {
 
     private void CheckForShooting()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") || Input.GetKeyDown("x"))
         {
             Shoot();
         }
@@ -55,8 +56,18 @@ public class Player : MonoBehaviour, IMovable, IHuman {
 
     public void Move()
     {
-        float verticalSpeed = Input.GetAxis("Vertical");
-        float horizontalSpeed = Input.GetAxis("Horizontal");
+        float verticalSpeed;
+        float horizontalSpeed;
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            verticalSpeed = CrossPlatformInputManager.GetAxis("Vertical");
+            horizontalSpeed = CrossPlatformInputManager.GetAxis("Horizontal");
+        }
+        else
+        {
+            verticalSpeed = Input.GetAxis("Vertical");
+            horizontalSpeed = Input.GetAxis("Horizontal");
+        }
 
         if (horizontalSpeed > 0)
         {
