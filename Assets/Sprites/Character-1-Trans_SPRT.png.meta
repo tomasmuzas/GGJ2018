@@ -1,0 +1,2573 @@
+fileFormatVersion: 2
+guid: 89b296f5e7bd07f499527370414ea04b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Character-1-Trans_SPRT_0
+    21300002: Character-1-Trans_SPRT_1
+    21300004: Character-1-Trans_SPRT_2
+    21300006: Character-1-Trans_SPRT_3
+    21300008: Character-1-Trans_SPRT_4
+    21300010: Character-1-Trans_SPRT_5
+    21300012: Character-1-Trans_SPRT_6
+    21300014: Character-1-Trans_SPRT_7
+    21300016: Character-1-Trans_SPRT_8
+    21300018: Character-1-Trans_SPRT_9
+    21300020: Character-1-Trans_SPRT_10
+    21300022: Character-1-Trans_SPRT_11
+    21300024: Character-1-Trans_SPRT_12
+    21300026: Character-1-Trans_SPRT_13
+    21300028: Character-1-Trans_SPRT_14
+    21300030: Character-1-Trans_SPRT_15
+    21300032: Character-1-Trans_SPRT_16
+    21300034: Character-1-Trans_SPRT_17
+    21300036: Character-1-Trans_SPRT_18
+    21300038: Character-1-Trans_SPRT_19
+    21300040: Character-1-Trans_SPRT_20
+    21300042: Character-1-Trans_SPRT_21
+    21300044: Character-1-Trans_SPRT_22
+    21300046: Character-1-Trans_SPRT_23
+    21300048: Character-1-Trans_SPRT_24
+    21300050: Character-1-Trans_SPRT_25
+    21300052: Character-1-Trans_SPRT_26
+    21300054: Character-1-Trans_SPRT_27
+    21300056: Character-1-Trans_SPRT_28
+    21300058: Character-1-Trans_SPRT_29
+    21300060: Character-1-Trans_SPRT_30
+    21300062: Character-1-Trans_SPRT_31
+    21300064: Character-1-Trans_SPRT_32
+    21300066: Character-1-Trans_SPRT_33
+    21300068: Character-1-Trans_SPRT_34
+    21300070: Character-1-Trans_SPRT_35
+    21300072: Character-1-Trans_SPRT_36
+    21300074: Character-1-Trans_SPRT_37
+    21300076: Character-1-Trans_SPRT_38
+    21300078: Character-1-Trans_SPRT_39
+    21300080: Character-1-Trans_SPRT_40
+    21300082: Character-1-Trans_SPRT_41
+    21300084: Character-1-Trans_SPRT_42
+    21300086: Character-1-Trans_SPRT_43
+    21300088: Character-1-Trans_SPRT_44
+    21300090: Character-1-Trans_SPRT_45
+    21300092: Character-1-Trans_SPRT_46
+    21300094: Character-1-Trans_SPRT_47
+    21300096: Character-1-Trans_SPRT_48
+    21300098: Character-1-Trans_SPRT_49
+    21300100: Character-1-Trans_SPRT_50
+    21300102: Character-1-Trans_SPRT_51
+    21300104: Character-1-Trans_SPRT_52
+    21300106: Character-1-Trans_SPRT_53
+    21300108: Character-1-Trans_SPRT_54
+    21300110: Character-1-Trans_SPRT_55
+    21300112: Character-1-Trans_SPRT_56
+    21300114: Character-1-Trans_SPRT_57
+    21300116: Character-1-Trans_SPRT_58
+    21300118: Character-1-Trans_SPRT_59
+    21300120: Character-1-Trans_SPRT_60
+    21300122: Character-1-Trans_SPRT_61
+    21300124: Character-1-Trans_SPRT_62
+    21300126: Character-1-Trans_SPRT_63
+    21300128: Character-1-Trans_SPRT_64
+    21300130: Character-1-Trans_SPRT_65
+    21300132: Character-1-Trans_SPRT_66
+    21300134: Character-1-Trans_SPRT_67
+    21300136: Character-1-Trans_SPRT_68
+    21300138: Character-1-Trans_SPRT_69
+    21300140: Character-1-Trans_SPRT_70
+    21300142: Character-1-Trans_SPRT_71
+    21300144: Character-1-Trans_SPRT_72
+    21300146: Character-1-Trans_SPRT_73
+    21300148: Character-1-Trans_SPRT_74
+    21300150: Character-1-Trans_SPRT_75
+    21300152: Character-1-Trans_SPRT_76
+    21300154: Character-1-Trans_SPRT_77
+    21300156: Character-1-Trans_SPRT_78
+    21300158: Character-1-Trans_SPRT_79
+    21300160: Character-1-Trans_SPRT_80
+    21300162: Character-1-Trans_SPRT_81
+    21300164: Character-1-Trans_SPRT_82
+    21300166: Character-1-Trans_SPRT_83
+    21300168: Character-1-Trans_SPRT_84
+    21300170: Character-1-Trans_SPRT_85
+    21300172: Character-1-Trans_SPRT_86
+    21300174: Character-1-Trans_SPRT_87
+    21300176: Character-1-Trans_SPRT_88
+    21300178: Character-1-Trans_SPRT_89
+    21300180: Character-1-Trans_SPRT_90
+    21300182: Character-1-Trans_SPRT_91
+    21300184: Character-1-Trans_SPRT_92
+    21300186: Character-1-Trans_SPRT_93
+    21300188: Character-1-Trans_SPRT_94
+    21300190: Character-1-Trans_SPRT_95
+    21300192: Character-1-Trans_SPRT_96
+    21300194: Character-1-Trans_SPRT_97
+    21300196: Character-1-Trans_SPRT_98
+    21300198: Character-1-Trans_SPRT_99
+    21300200: Character-1-Trans_SPRT_100
+    21300202: Character-1-Trans_SPRT_101
+    21300204: Character-1-Trans_SPRT_102
+    21300206: Character-1-Trans_SPRT_103
+    21300208: Character-1-Trans_SPRT_104
+    21300210: Character-1-Trans_SPRT_105
+    21300212: Character-1-Trans_SPRT_106
+    21300214: Character-1-Trans_SPRT_107
+    21300216: Character-1-Trans_SPRT_108
+    21300218: Character-1-Trans_SPRT_109
+    21300220: Character-1-Trans_SPRT_110
+    21300222: Character-1-Trans_SPRT_111
+    21300224: Character-1-Trans_SPRT_112
+    21300226: Character-1-Trans_SPRT_113
+    21300228: Character-1-Trans_SPRT_114
+    21300230: Character-1-Trans_SPRT_115
+    21300232: Character-1-Trans_SPRT_116
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_0
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 14308
+        width: 293
+        height: 665
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619bea3bd77e25e4bbd7c675af9df344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_1
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 14352
+        width: 323
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738f0dc6c2feec648919cfd465f4374e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_2
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 14381
+        width: 362
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c4d2d1ab52303408c0e70914acdb85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_3
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 14425
+        width: 396
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc10a360554bd554cb3687efa6c6287b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_4
+      rect:
+        serializedVersion: 2
+        x: 3115
+        y: 14476
+        width: 443
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e13a5171eda65a4099ed5567fea9006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_5
+      rect:
+        serializedVersion: 2
+        x: 3844
+        y: 14520
+        width: 469
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143fd855ec0c3964d8097b7850b44e02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 13773
+        width: 489
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48db3644dfd884d45bc54cc2db8a7201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_7
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 13766
+        width: 483
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3a5d9d32b23e14b9cfde8684cfca2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_8
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 13759
+        width: 453
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382e4cf3be2785844ba6c6d80f28040c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_9
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 13751
+        width: 403
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7e471053e357b49b88168a8cbb8b69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_10
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 13715
+        width: 425
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7f3090e221b8646a89410647264ca9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_11
+      rect:
+        serializedVersion: 2
+        x: 4006
+        y: 13715
+        width: 494
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f142189ddd87dc14393e36bb0f56700c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_12
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 12872
+        width: 469
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f1e6824569f0842953a3356a884303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_13
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 12806
+        width: 403
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ab8ec47420c1542b6a11a84ef3fcf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_14
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 12865
+        width: 447
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3b3db3da9609f4892b095188608da3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_15
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 12894
+        width: 541
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc998ec4185f3b439ec1fb6937ab2e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_16
+      rect:
+        serializedVersion: 2
+        x: 3067
+        y: 12931
+        width: 564
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fbec7c894c424419ff2bc66891c4f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_17
+      rect:
+        serializedVersion: 2
+        x: 3822
+        y: 12931
+        width: 571
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722a55076be72194eadc33ebd1c7d624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_18
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 12157
+        width: 555
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a70e737e33af845a2787699f390a07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_19
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 12119
+        width: 520
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963842acae3b86a428161d890cb58ac4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_20
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 12083
+        width: 481
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2efe17bacb08949ba2fdbaa1056780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_21
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 12060
+        width: 459
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c394799903dcf9479cd7e40ab860ec3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_22
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 12041
+        width: 448
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c776254d32a50a4098d980539774fca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_23
+      rect:
+        serializedVersion: 2
+        x: 3933
+        y: 12025
+        width: 429
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f263d97791f95ff48a4c17c34778d1f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_24
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 11263
+        width: 408
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60511ea19bd0f34c9a64c78d6204dbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_25
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 11256
+        width: 394
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5de98d8cdce7394384a2a3f2cbeee0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_26
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 11248
+        width: 400
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0156d7643a56049bc05c5747a9cce9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_27
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 11247
+        width: 412
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b2a4160f1f5ab4d8ba79819f494f69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_28
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 11241
+        width: 468
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c102fa334111d684d9d41dc4f7103cd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_29
+      rect:
+        serializedVersion: 2
+        x: 3965
+        y: 11243
+        width: 417
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dccf75bb6f6af148a47bb4481fd2fb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_30
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 10493
+        width: 417
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918d83896d7ccf1498c19fd7cbfb3b49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_31
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 10496
+        width: 434
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc35a710d37d6b40a891d34c7833ed8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_32
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 10501
+        width: 456
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86453e86772e0f4bab69285074c88f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_33
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 10508
+        width: 466
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907754e403e1ba548b368d86485a5480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_34
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 10515
+        width: 459
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8464b9171e51653428d1a219957d0a3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_35
+      rect:
+        serializedVersion: 2
+        x: 3966
+        y: 10522
+        width: 446
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56a1610257063c459899109c2753e82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_36
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 9775
+        width: 430
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b349536af727c4c8f4994ba4a55619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_37
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 9782
+        width: 425
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1970fa590a65604baa8598b749bbc81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_38
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 9782
+        width: 425
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bb468c7768a204299cf0c4941c4262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_39
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 9782
+        width: 425
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fa27804f395544092c1a550d29b82d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_40
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 9782
+        width: 418
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a812d4c9d72c0454b801b8c6889f1e5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_41
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 9782
+        width: 425
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f88fa7439ab7a4aa196383dee61383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_42
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 9034
+        width: 425
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c108d46b35e1c743826dfa58420fb19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_43
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 9034
+        width: 418
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9027743ae01ab34a98d030258224f3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_44
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 9034
+        width: 425
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850142496b6ff1d41bd833da68e6a3bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_45
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 9034
+        width: 425
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688a271492eabee46a74e801986c3196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_46
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 9034
+        width: 418
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3543ba012c23754386da83294d8bca1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_47
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 9034
+        width: 425
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b6a02fbafdf014f9353fba2ff48e04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_48
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 8287
+        width: 425
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bd7b46f9e3ee842bfeee709afec910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_49
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 8287
+        width: 418
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad93c3888b1b924780f8282e5952fa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_50
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 8287
+        width: 425
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf75c46b1f622e4fbf07a422259e1e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_51
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 8287
+        width: 425
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c16c404b0d8df948a5c10fb437eedcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_52
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 8287
+        width: 418
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e2f8894f239ce4bab66b51e14115f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_53
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 8287
+        width: 425
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cf62ef13ce75a41bcd631571f6cc8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_54
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 7533
+        width: 425
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc67b7bd1fc12214eb763f5056f163aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_55
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 7533
+        width: 418
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407f1934066dd5145a060db219f832f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_56
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 7533
+        width: 425
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc945502543a4ca40b9dab27955ebe2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_57
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 7533
+        width: 425
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc0512bab4ee084fa031d7291967363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_58
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 7533
+        width: 418
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafd5c890d373614a967e4f9d1919263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_59
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 7533
+        width: 425
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74d6fb50f252e84783cad0b0ccaadd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_60
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 6786
+        width: 425
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1737ef88ab93ce47a89ec9533885a6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_61
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 6786
+        width: 418
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be987b9fbae01342b4072cf63b576c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_62
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 6786
+        width: 425
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61757880700aee4693f9f9ec12e8e49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_63
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 6786
+        width: 425
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dcacf3ded2bf84ea2402c43f3d5ea0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_64
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 6786
+        width: 418
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8b39956083f784283435e21577b314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_65
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 6786
+        width: 425
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78392da261bb13439900da313f94eeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_66
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 6032
+        width: 424
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4def5929dfdbb489185d4c69d50a9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_67
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 6032
+        width: 418
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94dd3e7c0c3f7d48b6c371715f533da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_68
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 6032
+        width: 425
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e57bcd679b87f4baa40e67b61e70aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_69
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 6032
+        width: 424
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4f4c6420c47e042baf53ae05120256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_70
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 6032
+        width: 418
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1954ace537c3a674b823e9893f7ca987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_71
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 6032
+        width: 424
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b08d97df5302e44b47fc19ca2c653b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_72
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 5284
+        width: 417
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d8feb693531db489fbe7a197fb4a78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_73
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 5284
+        width: 418
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c72962475fbedb45bea5ab104cbbeb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_74
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 5284
+        width: 424
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dd2bfa4e31c3d42ae65ba3c5439db7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_75
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 5284
+        width: 417
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7825d3e8f23884c4a9a71a2500529761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_76
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 5284
+        width: 418
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c44c6c7ab371a4f95e2b8ed080de84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_77
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 5284
+        width: 417
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240dcd10729622346866f24d8b453757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_78
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 4537
+        width: 424
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca37c82a3fc62a48afea786a87a4f77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_79
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 4537
+        width: 425
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ebb06eefee25a45a73859ac232f096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_80
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 4537
+        width: 417
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a4cac5f097cc748b4f768ad4899164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_81
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 4537
+        width: 418
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1154e7383712c364989005bacfb50e5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_82
+      rect:
+        serializedVersion: 2
+        x: 3214
+        y: 4537
+        width: 417
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e468217527f68a48a69ba96482ab1c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_83
+      rect:
+        serializedVersion: 2
+        x: 3961
+        y: 4537
+        width: 425
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82f5e5ea8648cf48bdecbcae263d2b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_84
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 3783
+        width: 425
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b89e58d454db8419631ae28a619cfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_85
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 3783
+        width: 424
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80caf9492691aea4b9efefbe995760a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_86
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 3783
+        width: 418
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f15c6296d9899644969b03f28caec58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_87
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 3783
+        width: 418
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90055b6b33ea8e45aea5c0dd8c996fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_88
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 3783
+        width: 417
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3206ad4d7a16ecf4895678bfc74e4a8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_89
+      rect:
+        serializedVersion: 2
+        x: 3954
+        y: 3783
+        width: 424
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42abe1751312be49a3d32bb04377554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_90
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3036
+        width: 424
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d71eed2a77fff747852cb3bdc498106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_91
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 3036
+        width: 418
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4e130c8e4291842aacc378efc53706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_92
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 3036
+        width: 418
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95ccf156d693894fbbc4137fb81fc9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_93
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 3036
+        width: 417
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b45249c76fd4a4596e4a788da08e42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_94
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 3036
+        width: 418
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6bb36e3bf1f1b4d89a9f8efb41588b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_95
+      rect:
+        serializedVersion: 2
+        x: 3954
+        y: 3036
+        width: 410
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14d86a67522299408da6e775a4c68a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_96
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2282
+        width: 413
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f39d0954f01244ca7fefaa52e5250e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_97
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 2282
+        width: 417
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f313e3dcd097f3e47bd6b31cbd110234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_98
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 2282
+        width: 417
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bf283016193184ba7648afa6b4ac78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_99
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 2282
+        width: 410
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea61e5f919fb6174fad48e959f25ab03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_100
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 2282
+        width: 410
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51553cc0a1073f0498fd948d3f9a2902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_101
+      rect:
+        serializedVersion: 2
+        x: 3947
+        y: 2282
+        width: 410
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95931c0161eca8d409b47d24edf9b680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_102
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1534
+        width: 403
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c3937429f9138448fb7fbd7842806c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_103
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1534
+        width: 410
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e50c8fca8a6b184eba417b16d173963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_104
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1534
+        width: 410
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b394b2b550a45c441b7b57accd955af1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_105
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 1534
+        width: 410
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a573cb76e2f6204c84fd22903d4766e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_106
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 1534
+        width: 406
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64c1dc0ff19c62488b125d74be57e37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_107
+      rect:
+        serializedVersion: 2
+        x: 3947
+        y: 1534
+        width: 410
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91a197eb69c7a044a24c39e6e42aef4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_108
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 787
+        width: 409
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd22dd5fc29c2f4890951d8eb3d577a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_109
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 787
+        width: 403
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0dfd42ca9023742a791a37579d0820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_110
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 787
+        width: 410
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc6f26bf9ee8394a8ec20e4c9d3739b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_111
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 787
+        width: 410
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e943450c3e573f4e8cfabb3b69347a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_112
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 787
+        width: 403
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d57973e99d009a44baf5a8f6c6e4048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_113
+      rect:
+        serializedVersion: 2
+        x: 3947
+        y: 787
+        width: 401
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9f27ef4da7e8e4eb22981ed1df2044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_114
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 40
+        width: 380
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3521413f4a944498585975146a3aa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_115
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 48
+        width: 373
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafad2b8536c03d4bba7d3428a0d4190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character-1-Trans_SPRT_116
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 48
+        width: 395
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacbd355819eb904ea82a927b42a60af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 599407702831b4b4a8a7fbd4716916df
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

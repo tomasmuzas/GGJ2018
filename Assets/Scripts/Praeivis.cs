@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+[RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(AudioSource))]
 public class Praeivis : MonoBehaviour
 {
@@ -9,6 +11,8 @@ public class Praeivis : MonoBehaviour
     public Sprite Sprite2;
     public int Points = 10;
     public bool Slavified = false;
+    private bool hasPlayedSound = false;
+    private bool scoreGiven = false;
 
     void OnCollisionEnter2D(Collision2D other)
     {
@@ -48,19 +52,29 @@ public class Praeivis : MonoBehaviour
 
     public void OnTransformation()
     {
-        GameObject.Find("Main Camera").GetComponent<LevelManager>().AddScore(this);
+        if (!scoreGiven)
+        {
+            GameObject.Find("Main Camera").GetComponent<LevelManager>().AddScore(this);
+            scoreGiven = true;
+        }
+        gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
         PlayTransformationSound();
         ChangeAnimation();
     }
 
     void PlayTransformationSound()
     {
-        GetComponent<AudioSource>().Play();
+        if (!hasPlayedSound)
+        {
+            GetComponent<AudioSource>().Play();
+            hasPlayedSound = true;
+        }
+        
     }
 
     void ChangeAnimation()
     {
-        gameObject.GetComponent<SpriteRenderer>().sprite = Sprite2;
+        gameObject.GetComponent<Animator>().SetBool("Transformed", true);
     }
 
 }

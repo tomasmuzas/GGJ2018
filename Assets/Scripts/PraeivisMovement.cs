@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Pathfinding;
 using UnityEngine;
@@ -25,6 +26,8 @@ public class PraeivisMovement : MonoBehaviour
 
     private int currentWaypoint = 0;
     public bool recalculating = false;
+
+    public Direction direction = Direction.Left;
 
     // Use this for initialization
     void Start ()
@@ -106,12 +109,34 @@ public class PraeivisMovement : MonoBehaviour
         rb.velocity = dir;
         //rb.AddForce(dir, fMode);
 
+        if (target.transform.position.x < transform.position.x)
+        {
+            FlipRight();
+        }
+        if (target.transform.position.x > transform.position.x)
+        {
+            FlipLeft();
+            
+        }
+
         var dist = Vector3.Distance(transform.position, path.vectorPath[currentWaypoint]);
         if (dist < nextWaypointDistance)
         {
             currentWaypoint++;
             return;
         }
+    }
+
+    private void FlipLeft()
+    {
+        direction = Direction.Left;
+        gameObject.GetComponent<SpriteRenderer>().flipX = true;
+    }
+
+    private void FlipRight()
+    {
+        direction = Direction.Right;
+        gameObject.GetComponent<SpriteRenderer>().flipX = false;
     }
 }
 ;
