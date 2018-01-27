@@ -6,12 +6,6 @@ public class HealthBar : MonoBehaviour{
     public GameObject[] healthSprites;
     public GameObject healthPanel;
 
-
-    private void Start()
-    {
-        SetHp(3);
-    }
-
     public void SetHp(int HP)
     {
         if (HP == 0)

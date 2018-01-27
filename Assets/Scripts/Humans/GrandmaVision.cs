@@ -7,7 +7,7 @@ public class GrandmaVision : MonoBehaviour {
         if (collision.gameObject.tag == "Player")
         {
             Player player = collision.gameObject.GetComponent<Player>();
-            player.HP--;
+            player.DecreaseHP();
         }
     }
 

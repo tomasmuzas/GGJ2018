@@ -25,6 +25,7 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     private new Rigidbody2D rigidbody;
 
     public GameObject Mama = null;
+    public HealthBar HealthBar { get; set; }
 
     public void Shoot()
     {
@@ -42,7 +43,10 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     {
         rigidbody = GetComponent<Rigidbody2D>();
         rigidbody.gravityScale = 0f;
+        HealthBar = GameObject.Find("HealthBarManager").GetComponent<HealthBar>();
+        HealthBar.SetHp(HP);
     }
+
 
     private void Update()
     {
@@ -111,5 +115,10 @@ public class Player : MonoBehaviour, IMovable, IHuman {
         }
     }
 
+    public void DecreaseHP()
+    {
+        HP--;
+        HealthBar.SetHp(HP);
+    }
 }
 
