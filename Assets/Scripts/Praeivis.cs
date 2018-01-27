@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Praeivis : MonoBehaviour
 {
@@ -11,29 +9,21 @@ public class Praeivis : MonoBehaviour
     {
         if (other.gameObject.tag == "Projectile")
         {
-            Health -= other.gameObject.GetComponent<Skill>().Damage;
-            if (Health <= 0)
-            {
-                gameObject.GetComponent<SpriteRenderer>().sprite = Sprite2;
-                // TODO: Animation/sound
-                Destroy(other.gameObject);
-                //GetComponent<Collider2D>().enabled = false;
-                //Speed = 0;
-                //anim.SetBool("Dies", true);
-                //GetComponent<Rigidbody2D>().gravityScale = 0.5f;
-                //GetComponent<MexicanMoving>().enabled = false;
-            }
-            else
-            {
-                Destroy(other.gameObject);
-            }
+            ReduceHealthBy(other.gameObject.GetComponent<Skill>().Damage);
+            Destroy(other.gameObject);
         }
-        else
+        else if(other.gameObject.tag == "SpawnPoint")
         {
-            if (other.gameObject.tag == "SpawnPoint")
-            {
-                Destroy(gameObject);
-            }
+            Destroy(gameObject);
+        }
+    }
+
+    public void ReduceHealthBy(double amount)
+    {
+        Health -= amount;
+        if (Health <= 0)
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = Sprite2;
         }
     }
 

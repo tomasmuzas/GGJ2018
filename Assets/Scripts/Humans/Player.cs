@@ -32,12 +32,11 @@ public class Player : MonoBehaviour, IMovable, IHuman {
         if(SkillPrefab != null)
         {
             GameObject actualProjectile = Instantiate(SkillPrefab, transform.position, transform.rotation);
-            SpriteRenderer projectileSprite = SkillPrefab.GetComponent<SpriteRenderer>();
             Skill skillScript = actualProjectile.GetComponent<Skill>();
             skillScript.direction = this.direction;
-            projectileSprite.sprite = skillScript.ShootingSprite;
         }
     }
+
 
     private void Start()
     {
@@ -87,10 +86,6 @@ public class Player : MonoBehaviour, IMovable, IHuman {
         }
 
         rigidbody.velocity = new Vector2(horizontalSpeed * Speed, verticalSpeed * Speed);
-        if (Mama != null)
-        {
-            Mama.GetComponent<Mama>().RecalculatePath(gameObject.transform);
-        }
     }
 
     private void FlipLeft()
