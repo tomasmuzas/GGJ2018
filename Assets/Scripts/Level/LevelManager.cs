@@ -28,22 +28,21 @@ public class LevelManager : MonoBehaviour {
         transmittedText.text = slavCountCurrent + "/" + slavCountNeeded;
     }
 
-    public void End()
-    {
-        Debug.Log("Game over.");
-    }
-
     void Update()
     {
-        //waves_tab.text="Waves:"+wave_current+"/"+wave_all;
         var time = (int)Mathf.Floor(timeRemaining - Time.timeSinceLevelLoad);
         GameObject.Find("TimeLeft").GetComponent<Text>().text = time.ToString();
 
         if (time <= 0)
         {
-            Time.timeScale = 0.0F;
-            GameOver.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
-            GameOver.gameObject.SetActive(true);
+            GameLose();
         }
+    }
+
+    public void GameLose()
+    {
+        Time.timeScale = 0.0F;
+        GameOver.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
+        GameOver.gameObject.SetActive(true);
     }
 }

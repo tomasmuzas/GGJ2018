@@ -111,7 +111,7 @@ public class Player : MonoBehaviour, IMovable, IHuman {
         {
             // TODO: Animation/sound
             Destroy(gameObject);
-            GameObject.Find("Main Camera").GetComponent<LevelManager>().End();
+            GameObject.Find("Main Camera").GetComponent<LevelManager>().GameLose();
         }
     }
 
