@@ -23,8 +23,8 @@ GameObject:
   - component: {fileID: 114620599802053962}
   - component: {fileID: 50095649711331518}
   - component: {fileID: 114349036706962664}
-  - component: {fileID: 58495597707784828}
   - component: {fileID: 114973955525783136}
+  - component: {fileID: 58426321380949982}
   m_Layer: 0
   m_Name: Praeivis
   m_TagString: Untagged
@@ -65,7 +65,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &58495597707784828
+--- !u!58 &58426321380949982
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -78,7 +78,7 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.5515
 --- !u!114 &114349036706962664
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -94,7 +94,7 @@ MonoBehaviour:
   updateRate: 0.01
   seeker: {fileID: 114620599802053962}
   rb: {fileID: 50095649711331518}
-  speed: 20
+  speed: 50
   fMode: 0
   pathIsEnded: 0
   nextWaypointDistance: 3
@@ -166,7 +166,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b9e53cc07cdc98b4caf09e27b386ce88, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78ec9083e76d88e48a94c837b7dcf361, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
