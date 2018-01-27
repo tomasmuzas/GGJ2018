@@ -198,8 +198,12 @@ MonoBehaviour:
   ShootingSprite: {fileID: 21300000, guid: 0f64b08ab7372b24fbafa383903ed965, type: 3}
   direction: 0
   _damage: 1
+<<<<<<< HEAD:Assets/Prefabs/Skills/Seed.prefab
   _speed: 3
   projectileTime: 5
+=======
+  _speed: 4
+>>>>>>> Povilo1909:Assets/Prefabs/Seed.prefab
 --- !u!212 &212623728035502724
 SpriteRenderer:
   m_ObjectHideFlags: 1
