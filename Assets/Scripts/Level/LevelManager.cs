@@ -13,6 +13,8 @@ public class LevelManager : MonoBehaviour {
     public int timeRemaining = 20;
     public GameObject GameOver;
     public GameObject GameWinCanvas;
+    public Text scoreText;
+    public Text hiText;
 
 
     void Start()
@@ -22,11 +24,19 @@ public class LevelManager : MonoBehaviour {
         GameOver.gameObject.SetActive(false);
         GameWinCanvas = GameObject.Find("GameWin");
         GameWinCanvas.gameObject.SetActive(false);
+        transmittedText = GameObject.Find("TransmittedText").GetComponent<Text>();
+
+        scoreText = GameObject.Find("CurrentScore").GetComponent<Text>();
+        scoreText.text = 0.ToString(); // TODO: Keep between levels
+        hiText = GameObject.Find("HighScore").GetComponent<Text>();
+        hiText.text = highscore.ToString();
     }
 
     public void AddScore(Praeivis praeivis)
     {
         score += praeivis.Points;
+        scoreText.text = score.ToString();
+
         slavCountCurrent++;
         transmittedText.text = slavCountCurrent + "/" + slavCountNeeded;
 
@@ -49,6 +59,10 @@ public class LevelManager : MonoBehaviour {
 
     public void GameLose()
     {
+        if (score > highscore)
+        {
+            PlayerPrefs.SetInt("highscore", score);
+        }
         Time.timeScale = 0.0F;
         GameOver.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
         GameOver.gameObject.SetActive(true);
@@ -56,6 +70,10 @@ public class LevelManager : MonoBehaviour {
 
     public void GameWin()
     {
+        if (score > highscore)
+        {
+            PlayerPrefs.SetInt("highscore", score);
+        }
         Time.timeScale = 0.0F;
         GameWinCanvas.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
         GameWinCanvas.gameObject.SetActive(true);
