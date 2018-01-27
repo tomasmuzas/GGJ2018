@@ -24,6 +24,7 @@ public class PraeivisMovement : MonoBehaviour
     public float nextWaypointDistance = 3;
 
     private int currentWaypoint = 0;
+    public bool recalculating = false;
 
     // Use this for initialization
     void Start ()
@@ -40,6 +41,21 @@ public class PraeivisMovement : MonoBehaviour
         seeker.StartPath(transform.position, target.position, OnPathComplete);
 
         StartCoroutine(UpdatePath());
+    }
+
+    public void RecalculatePath(Transform newTarget)
+    {
+        target = newTarget;
+        //if (!recalculating)
+        //{
+        //    recalculating = true;
+        //    Debug.Log("recalculating");
+
+        //    seeker = GetComponent<Seeker>();
+        //    seeker.StartPath(transform.position, newTarget.position, OnPathComplete);
+        //    //StartCoroutine(UpdatePath());
+        //    recalculating = false;
+        //}
     }
 
     private IEnumerator UpdatePath()
@@ -66,7 +82,7 @@ public class PraeivisMovement : MonoBehaviour
     {
         if (target == null || path == null)
         {
-            Debug.Log("No target or path.");
+            //Debug.Log("No target or path.");
             return;
         }
 
@@ -77,7 +93,7 @@ public class PraeivisMovement : MonoBehaviour
                 return;
             }
 
-            Debug.Log("End of path reached.");
+            //Debug.Log("End of path reached.");
             pathIsEnded = true;
             return;
         }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Projectile
   - SpawnPoint
+  - Mama
   layers:
   - Default
   - TransparentFX
@@ -16,9 +17,9 @@ TagManager:
   - 
   - 
   - Obstacles
-  - 
-  - 
-  - 
+  - Praeivis
+  - Projectile
+  - Player
   - 
   - 
   - 

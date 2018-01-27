@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public enum Direction
 {
@@ -18,10 +19,12 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     public int HP{ get { return _HP; } set { _HP = value; } }
     [SerializeField]
     private float _speed;
-    public float Speed { get { return _speed; } set { _speed = value; } } 
+    public float Speed { get { return _speed; } set { _speed = value; } }
 
 
     private new Rigidbody2D rigidbody;
+
+    public GameObject Mama = null;
 
     public void Shoot()
     {
@@ -49,7 +52,7 @@ public class Player : MonoBehaviour, IMovable, IHuman {
 
     private void CheckForShooting()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") || Input.GetKeyDown("x"))
         {
             Shoot();
         }
@@ -57,8 +60,18 @@ public class Player : MonoBehaviour, IMovable, IHuman {
 
     public void Move()
     {
-        float verticalSpeed = Input.GetAxis("Vertical");
-        float horizontalSpeed = Input.GetAxis("Horizontal");
+        float verticalSpeed;
+        float horizontalSpeed;
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            verticalSpeed = CrossPlatformInputManager.GetAxis("Vertical");
+            horizontalSpeed = CrossPlatformInputManager.GetAxis("Horizontal");
+        }
+        else
+        {
+            verticalSpeed = Input.GetAxis("Vertical");
+            horizontalSpeed = Input.GetAxis("Horizontal");
+        }
 
         if (horizontalSpeed > 0)
         {
@@ -70,6 +83,10 @@ public class Player : MonoBehaviour, IMovable, IHuman {
         }
 
         rigidbody.velocity = new Vector2(horizontalSpeed * Speed, verticalSpeed * Speed);
+        if (Mama != null)
+        {
+            Mama.GetComponent<Mama>().RecalculatePath(gameObject.transform);
+        }
     }
 
     private void FlipLeft()
@@ -84,6 +101,15 @@ public class Player : MonoBehaviour, IMovable, IHuman {
         GetComponent<SpriteRenderer>().flipX = true;
     }
 
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Mama")
+        {
+            // TODO: Animation/sound
+            Destroy(gameObject);
+            GameObject.Find("Main Camera").GetComponent<LevelManager>().End();
+        }
+    }
 
 }
 
