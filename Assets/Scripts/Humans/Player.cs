@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public enum Direction
 {
@@ -25,17 +24,11 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     {
         if(SkillPrefab != null)
         {
-            Instantiate(SkillPrefab, transform.position, transform.rotation);
+            GameObject actualProjectile = Instantiate(SkillPrefab, transform.position, transform.rotation);
             SpriteRenderer projectileSprite = SkillPrefab.GetComponent<SpriteRenderer>();
-            Rigidbody2D projectileRigidBody = SkillPrefab.GetComponent<Rigidbody2D>();
-            if (projectileSprite != null && projectileRigidBody != null)
-            {
-                Skill skillScript = SkillPrefab.GetComponent<Skill>();
-                skillScript.direction = this.direction;
-                projectileSprite.sprite = skillScript.ShootingSprite;
-                skillScript.Move();
-            }
-
+            Skill skillScript = actualProjectile.GetComponent<Skill>();
+            skillScript.direction = this.direction;
+            projectileSprite.sprite = skillScript.ShootingSprite;
         }
     }
 
@@ -65,15 +58,32 @@ public class Player : MonoBehaviour, IMovable, IHuman {
         float verticalSpeed = Input.GetAxis("Vertical");
         float horizontalSpeed = Input.GetAxis("Horizontal");
 
-        Rotate(horizontalSpeed);
+        if (horizontalSpeed > 0)
+        {
+            print(horizontalSpeed);
+            FlipRight();
+        }
+        if (horizontalSpeed < 0)
+        {
+            print(horizontalSpeed);
+            FlipLeft();
+        }
 
         rigidbody.velocity = new Vector2(horizontalSpeed * Speed, verticalSpeed * Speed);
     }
 
-    public void Rotate(float horizontalSpeed)
+    private void FlipLeft()
     {
-        direction = horizontalSpeed > 0 ? Direction.Right : Direction.Left;
-        GetComponent<SpriteRenderer>().flipX = (direction == Direction.Left);
+        direction = Direction.Left;
+        GetComponent<SpriteRenderer>().flipX = true;
     }
+
+    private void FlipRight()
+    {
+        direction = Direction.Right;
+        GetComponent<SpriteRenderer>().flipX = false;
+    }
+
+    
 }
 

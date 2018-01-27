@@ -12,6 +12,7 @@ public class Skill : MonoBehaviour, IDamageDealer, IMovable
     [SerializeField]
     private float _speed;
     public float Speed { get { return _speed; } private set { _speed = value; } }
+    
 
     private void Update()
     {
@@ -20,8 +21,8 @@ public class Skill : MonoBehaviour, IDamageDealer, IMovable
 
     public void Move()
     {
+        GetComponent<Rigidbody2D>().velocity = new Vector2(direction == Direction.Left ? -Speed : Speed, 0);
         
-        GetComponent<Rigidbody2D>().velocity = new Vector2(direction == Direction.Left? -Speed : Speed, 0);
     }
 }
 
