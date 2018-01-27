@@ -9,7 +9,7 @@ public enum Direction
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour, IMovable, IHuman {
-    
+
     public Direction direction;
     public GameObject PowerUp;
     public GameObject SkillPrefab;
@@ -17,7 +17,7 @@ public class Player : MonoBehaviour, IMovable, IHuman {
 
     [SerializeField]
     public int HP{ get; private set; }
-    public float Speed { get; set; } 
+    public float Speed { get; set; }
 
     private new Rigidbody2D rigidbody;
 
@@ -43,7 +43,7 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     {
         rigidbody = GetComponent<Rigidbody2D>();
         rigidbody.gravityScale = 0f;
-        Speed = 1f;
+        Speed = 2f;
     }
 
     private void Update()

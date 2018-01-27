@@ -21,6 +21,10 @@ public class Praeivis : MonoBehaviour
                 //GetComponent<Rigidbody2D>().gravityScale = 0.5f;
                 //GetComponent<MexicanMoving>().enabled = false;
             }
+            else
+            {
+                Destroy(other.gameObject);
+            }
         }
 
     }
