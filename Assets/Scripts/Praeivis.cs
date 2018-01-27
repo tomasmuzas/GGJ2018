@@ -20,22 +20,8 @@ public class Praeivis : MonoBehaviour
 
         if (other.gameObject.tag == "Projectile")
         {
-            Health -= other.gameObject.GetComponent<Skill>().Damage;
-            if (Health <= 0)
-            {
-                gameObject.GetComponent<SpriteRenderer>().sprite = Sprite2;
-                // TODO: Animation/sound
-                Destroy(other.gameObject);
-                //GetComponent<Collider2D>().enabled = false;
-                //Speed = 0;
-                //anim.SetBool("Dies", true);
-                //GetComponent<Rigidbody2D>().gravityScale = 0.5f;
-                //GetComponent<MexicanMoving>().enabled = false;
-            }
-            else
-            {
-                Destroy(other.gameObject);
-            }
+            ReduceHealthBy(other.gameObject.GetComponent<Skill>().Damage);
+            Destroy(other.gameObject);
         }
         else if (other.gameObject.tag == "SpawnPoint")
         {
@@ -62,6 +48,7 @@ public class Praeivis : MonoBehaviour
 
     public void OnTransformation()
     {
+        GameObject.Find("Main Camera").GetComponent<LevelManager>().AddScore(this);
         PlayTransformationSound();
         ChangeAnimation();
     }
@@ -77,8 +64,3 @@ public class Praeivis : MonoBehaviour
     }
 
 }
-
-﻿using UnityEngine;
-using System;
-            ReduceHealthBy(other.gameObject.GetComponent<Skill>().Damage);
-            Destroy(other.gameObject);
