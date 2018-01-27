@@ -98,6 +98,7 @@ MonoBehaviour:
   fMode: 0
   pathIsEnded: 0
   nextWaypointDistance: 3
+  recalculating: 0
 --- !u!114 &114620599802053962
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -136,6 +137,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 2
   Sprite2: {fileID: 21300000, guid: 78ec9083e76d88e48a94c837b7dcf361, type: 3}
+  Points: 10
+  Slavified: 0
 --- !u!212 &212734552569812106
 SpriteRenderer:
   m_ObjectHideFlags: 1

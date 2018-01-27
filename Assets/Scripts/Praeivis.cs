@@ -1,14 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Praeivis : MonoBehaviour
 {
     public double Health = 2;
     public Sprite Sprite2;
+    public int Points = 10;
+    public bool Slavified = false;
 
     void OnCollisionEnter2D(Collision2D other)
     {
+        if (Slavified)
+        {
+            Destroy(other.gameObject);
+            return;
+        }
+
         if (other.gameObject.tag == "Projectile")
         {
             Health -= other.gameObject.GetComponent<Skill>().Damage;
@@ -17,6 +26,7 @@ public class Praeivis : MonoBehaviour
                 gameObject.GetComponent<SpriteRenderer>().sprite = Sprite2;
                 // TODO: Animation/sound
                 Destroy(other.gameObject);
+
                 //GetComponent<Collider2D>().enabled = false;
                 //Speed = 0;
                 //anim.SetBool("Dies", true);
@@ -25,6 +35,7 @@ public class Praeivis : MonoBehaviour
             }
             else
             {
+                GameObject.Find("Main Camera").GetComponent<LevelManager>().AddScore(this);
                 Destroy(other.gameObject);
             }
         }
