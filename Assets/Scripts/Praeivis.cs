@@ -14,6 +14,7 @@ public class Praeivis : MonoBehaviour
             if (Health <= 0)
             {
                 Destroy(other.gameObject);
+                // TODO: Become slav
                 Destroy(gameObject);
                 //GetComponent<Collider2D>().enabled = false;
                 //Speed = 0;
@@ -26,6 +27,20 @@ public class Praeivis : MonoBehaviour
                 Destroy(other.gameObject);
             }
         }
+        else
+        {
+            if (other.gameObject.tag == "SpawnPoint")
+            {
+                Destroy(gameObject);
+            }
+        }
+    }
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (GetComponent<PraeivisMovement>().target.transform == other.transform)
+        {
+            Destroy(gameObject);
+        }
     }
 }
