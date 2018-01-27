@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
+using System;
 
+[RequireComponent(typeof(AudioSource))]
 public class Praeivis : MonoBehaviour
 {
     public double Health = 2;
@@ -12,18 +14,9 @@ public class Praeivis : MonoBehaviour
             ReduceHealthBy(other.gameObject.GetComponent<Skill>().Damage);
             Destroy(other.gameObject);
         }
-        else if(other.gameObject.tag == "SpawnPoint")
+        else if (other.gameObject.tag == "SpawnPoint")
         {
             Destroy(gameObject);
-        }
-    }
-
-    public void ReduceHealthBy(double amount)
-    {
-        Health -= amount;
-        if (Health <= 0)
-        {
-            gameObject.GetComponent<SpriteRenderer>().sprite = Sprite2;
         }
     }
 
@@ -34,4 +27,30 @@ public class Praeivis : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void ReduceHealthBy(double amount)
+    {
+        Health -= amount;
+        if (Health <= 0)
+        {
+            OnTransformation();
+        }
+    }
+
+    public void OnTransformation()
+    {
+        PlayTransformationSound();
+        ChangeAnimation();
+    }
+
+    void PlayTransformationSound()
+    {
+        GetComponent<AudioSource>().Play();
+    }
+
+    void ChangeAnimation()
+    {
+        gameObject.GetComponent<SpriteRenderer>().sprite = Sprite2;
+    }
+
 }

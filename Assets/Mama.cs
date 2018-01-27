@@ -1,11 +1,16 @@
 ﻿using UnityEngine;
 
 public class Mama : MonoBehaviour {
+    
+    private GameObject target;
 
-    public Transform target;
+    private void Start()
+    {
+        target = GameObject.FindGameObjectWithTag("Player");
+    }
 
     private void Update()
     {
-        GetComponent<PraeivisMovement>().RecalculatePath(target);
+        GetComponent<PraeivisMovement>().RecalculatePath(target.transform);
     }
 }
