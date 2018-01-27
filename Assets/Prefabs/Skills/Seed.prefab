@@ -19,11 +19,11 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4493403463365210}
-  - component: {fileID: 212623728035502724}
   - component: {fileID: 50119504604534706}
   - component: {fileID: 114773070862300852}
   - component: {fileID: 60451599310795488}
   - component: {fileID: 82485326343604450}
+  - component: {fileID: 212022680497415038}
   m_Layer: 10
   m_Name: Seed
   m_TagString: Projectile
@@ -38,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1450243771525818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.9405675, y: -0.6348049, z: -0.114331014}
+  m_LocalPosition: {x: -5.9405675, y: -0.6348049, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -112,7 +112,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 75bc6ae18cdb182459f79492887759e8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 20fa26db081bf6842bc1df612d4c7af9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -194,17 +194,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c94090c0f750f1e41ba92e6541e327c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UISprite: {fileID: 0}
+  UISprite: {fileID: 21300000, guid: 0f64b08ab7372b24fbafa383903ed965, type: 3}
   ShootingSprite: {fileID: 21300000, guid: 0f64b08ab7372b24fbafa383903ed965, type: 3}
   direction: 0
   _damage: 1
-<<<<<<< HEAD:Assets/Prefabs/Skills/Seed.prefab
-  _speed: 3
-  projectileTime: 5
-=======
   _speed: 4
->>>>>>> Povilo1909:Assets/Prefabs/Seed.prefab
---- !u!212 &212623728035502724
+  projectileTime: 5
+--- !u!212 &212022680497415038
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -214,8 +210,8 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
