@@ -17,10 +17,10 @@ public class PraeivisSpawner : MonoBehaviour
     void Start()
     {
         StartCoroutine(Spawn());
-        if (Application.platform != RuntimePlatform.Android)
-        {
-            Destroy(MobileControls);
-        }
+        //if (Application.platform != RuntimePlatform.Android)
+        //{
+        //    Destroy(MobileControls);
+        //}
     }
 
 	void Update () {
