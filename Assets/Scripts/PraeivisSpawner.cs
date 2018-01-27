@@ -7,7 +7,7 @@ public class PraeivisSpawner : MonoBehaviour
     public float randStartTime = 0.5f;
     public float randEndTime = 1f;
 
-    public GameObject PraeivisPrefab;
+    public GameObject[] PraeivisPrefabs;
 
     public GameObject[] Laiptines;
     public GameObject[] OffMaps;
@@ -53,8 +53,7 @@ public class PraeivisSpawner : MonoBehaviour
             Target = offMap;
         }
 
-        // TODO: Random praeivis type
-        var praeivisPrefab = PraeivisPrefab;
+        var praeivisPrefab = PraeivisPrefabs[Random.Range(0, PraeivisPrefabs.Length)];
         // Instantiate
 
         var praeivis = Instantiate(praeivisPrefab, SpawnPoint.transform.position, Quaternion.identity);
