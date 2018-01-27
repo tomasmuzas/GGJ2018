@@ -8,7 +8,7 @@ public enum Direction
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour, IMovable, IHuman {
-    
+
     public Direction direction;
     public GameObject PowerUp;
     public GameObject SkillPrefab;
@@ -19,6 +19,7 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     [SerializeField]
     private float _speed;
     public float Speed { get { return _speed; } set { _speed = value; } } 
+
 
     private new Rigidbody2D rigidbody;
 
@@ -74,15 +75,15 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     private void FlipLeft()
     {
         direction = Direction.Left;
-        GetComponent<SpriteRenderer>().flipX = true;
+        GetComponent<SpriteRenderer>().flipX = false;
     }
 
     private void FlipRight()
     {
         direction = Direction.Right;
-        GetComponent<SpriteRenderer>().flipX = false;
+        GetComponent<SpriteRenderer>().flipX = true;
     }
 
-    
+
 }
 
