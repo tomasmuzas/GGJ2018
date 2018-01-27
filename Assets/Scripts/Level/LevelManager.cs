@@ -12,6 +12,7 @@ public class LevelManager : MonoBehaviour {
     public Text transmittedText;
     public int timeRemaining = 20;
     public GameObject GameOver;
+    public GameObject GameWinCanvas;
 
 
     void Start()
@@ -19,6 +20,8 @@ public class LevelManager : MonoBehaviour {
         highscore = PlayerPrefs.GetInt("highscore", 0);
         GameOver = GameObject.Find("GameOver");
         GameOver.gameObject.SetActive(false);
+        GameWinCanvas = GameObject.Find("GameWin");
+        GameWinCanvas.gameObject.SetActive(false);
     }
 
     public void AddScore(Praeivis praeivis)
@@ -26,6 +29,11 @@ public class LevelManager : MonoBehaviour {
         score += praeivis.Points;
         slavCountCurrent++;
         transmittedText.text = slavCountCurrent + "/" + slavCountNeeded;
+
+        if (slavCountCurrent >= slavCountNeeded)
+        {
+            GameWin();
+        }
     }
 
     void Update()
@@ -44,5 +52,12 @@ public class LevelManager : MonoBehaviour {
         Time.timeScale = 0.0F;
         GameOver.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
         GameOver.gameObject.SetActive(true);
+    }
+
+    public void GameWin()
+    {
+        Time.timeScale = 0.0F;
+        GameWinCanvas.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
+        GameWinCanvas.gameObject.SetActive(true);
     }
 }
