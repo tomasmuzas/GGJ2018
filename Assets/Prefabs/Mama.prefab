@@ -23,10 +23,10 @@ GameObject:
   - component: {fileID: 114620599802053962}
   - component: {fileID: 50095649711331518}
   - component: {fileID: 114349036706962664}
-  - component: {fileID: 114973955525783136}
   - component: {fileID: 58426321380949982}
+  - component: {fileID: 114361458456043254}
   m_Layer: 9
-  m_Name: Praeivis
+  m_Name: Mama
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,7 +58,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.5
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -91,13 +91,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  updateRate: 0.01
+  updateRate: 0.005
   seeker: {fileID: 114620599802053962}
   rb: {fileID: 50095649711331518}
-  speed: 50
+  speed: 200
   fMode: 0
   pathIsEnded: 0
   nextWaypointDistance: 3
+  recalculating: 0
+--- !u!114 &114361458456043254
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1387851455575952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52affcb0eb363e4ca6d14e9928f087c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114620599802053962
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -123,19 +135,6 @@ MonoBehaviour:
     useGraphRaycasting: 0
   traversableTags: -1
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
---- !u!114 &114973955525783136
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1387851455575952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d0fc7416a5c8574da230b502a402e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Health: 2
-  Sprite2: {fileID: 21300000, guid: 78ec9083e76d88e48a94c837b7dcf361, type: 3}
 --- !u!212 &212734552569812106
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -167,7 +166,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b4bb901dc0d8f954585b4825d9bd46d2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8376fe7f017586e43a7292aaceb353f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

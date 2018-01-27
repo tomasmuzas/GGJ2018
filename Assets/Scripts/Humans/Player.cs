@@ -19,10 +19,12 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     public int HP{ get { return _HP; } set { _HP = value; } }
     [SerializeField]
     private float _speed;
-    public float Speed { get { return _speed; } set { _speed = value; } } 
+    public float Speed { get { return _speed; } set { _speed = value; } }
 
 
     private new Rigidbody2D rigidbody;
+
+    public GameObject Mama = null;
 
     public void Shoot()
     {
@@ -81,6 +83,10 @@ public class Player : MonoBehaviour, IMovable, IHuman {
         }
 
         rigidbody.velocity = new Vector2(horizontalSpeed * Speed, verticalSpeed * Speed);
+        if (Mama != null)
+        {
+            Mama.GetComponent<Mama>().RecalculatePath(gameObject.transform);
+        }
     }
 
     private void FlipLeft()
