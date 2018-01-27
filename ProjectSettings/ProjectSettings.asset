@@ -119,7 +119,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleIdentifier: com.Company.ProductName
+  bundleIdentifier: com.Slavs.SlavTransmission
   bundleVersion: 1.0.1
   preloadedAssets: []
   metroInputSource: 0
@@ -127,7 +127,7 @@ PlayerSettings:
   xboxOneDisableKinectGpuReservation: 0
   protectGraphicsMemory: 0
   useHDRDisplay: 0
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 2
   AndroidMinSdkVersion: 16
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -199,7 +199,7 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
+  AndroidKeystoreName: C:/Users/PovilasGalcius/Source/Repos/Unity/GGJ2018a/user.keystore
   AndroidKeyaliasName: ggj2018
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
