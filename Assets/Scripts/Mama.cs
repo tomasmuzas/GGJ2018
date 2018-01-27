@@ -1,10 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Mama : MonoBehaviour {
-    public void RecalculatePath(Transform newTarget)
+    
+    private GameObject target;
+
+    private void Start()
     {
-        GetComponent<PraeivisMovement>().RecalculatePath(newTarget);
+        target = GameObject.FindGameObjectWithTag("Player");
+    }
+
+    private void Update()
+    {
+        GetComponent<PraeivisMovement>().RecalculatePath(target.transform);
     }
 }

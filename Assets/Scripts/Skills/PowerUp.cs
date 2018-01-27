@@ -1,24 +1,76 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 
-
-[CreateAssetMenu(fileName = "Skill", menuName = "Skills/Power Up")]
-public class PowerUp : ScriptableObject, IDamageDealer{
-    public Sprite UIIcon;
-    public bool Enabled;
+[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(CircleCollider2D))]
+[RequireComponent(typeof(AudioSource))]
+public class PowerUp : MonoBehaviour, IDamageDealer{
+    public bool Enabled = false;
     public double Radius;
     public int durationInSeconds;
-
-    [SerializeField]
-    private DateTime _endTime;
-    public DateTime EndTime { get { return _endTime; } private set { _endTime = value; } }
+    public int tickSpeed;
+    
 
     [SerializeField]
     private double _damage;
     public double Damage { get { return _damage; } private set { _damage = value; } }
 
-    void Start()
+    // Activate main effect after the player touches the powerup
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        EndTime = DateTime.Now.AddSeconds(durationInSeconds);
+        if (collision.gameObject.tag == "Player" && !Enabled)
+        {
+            Enabled = true;
+            Activate();
+        }
+    }
+
+
+    // Deal damage to pedestrians after
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Praeivis" && Enabled)
+        {
+            Praeivis pedestrian = collision.gameObject.GetComponent<Praeivis>();
+            StartCoroutine(ExecuteAfter(tickSpeed, () => pedestrian.ReduceHealthBy(Damage)));
+        }
+    }
+
+    void IncreaseColliderRadius()
+    {
+        CircleCollider2D circle = gameObject.GetComponent<CircleCollider2D>();
+        circle.radius = (float)Radius;
+    }
+
+    // Call all the main effects
+    void Activate()
+    {
+        PlaySound();
+        IncreaseColliderRadius();
+        StartDisapperCountdown();
+    }
+
+    void StartDisapperCountdown()
+    {
+        StartCoroutine(DisappearAfter(durationInSeconds));
+    }
+
+    void PlaySound()
+    {
+        gameObject.GetComponent<AudioSource>().Play();
+    }
+
+
+    IEnumerator DisappearAfter(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        Destroy(this.gameObject);
+    }
+
+    IEnumerator ExecuteAfter(float second, Action action)
+    {
+        yield return new WaitForSeconds(1f);
+        action();
     }
 }

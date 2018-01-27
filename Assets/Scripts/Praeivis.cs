@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
+[RequireComponent(typeof(AudioSource))]
 public class Praeivis : MonoBehaviour
 {
     public double Health = 2;
@@ -26,7 +26,6 @@ public class Praeivis : MonoBehaviour
                 gameObject.GetComponent<SpriteRenderer>().sprite = Sprite2;
                 // TODO: Animation/sound
                 Destroy(other.gameObject);
-
                 //GetComponent<Collider2D>().enabled = false;
                 //Speed = 0;
                 //anim.SetBool("Dies", true);
@@ -35,16 +34,12 @@ public class Praeivis : MonoBehaviour
             }
             else
             {
-                GameObject.Find("Main Camera").GetComponent<LevelManager>().AddScore(this);
                 Destroy(other.gameObject);
             }
         }
-        else
+        else if (other.gameObject.tag == "SpawnPoint")
         {
-            if (other.gameObject.tag == "SpawnPoint")
-            {
-                Destroy(gameObject);
-            }
+            Destroy(gameObject);
         }
     }
 
@@ -55,4 +50,35 @@ public class Praeivis : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void ReduceHealthBy(double amount)
+    {
+        Health -= amount;
+        if (Health <= 0)
+        {
+            OnTransformation();
+        }
+    }
+
+    public void OnTransformation()
+    {
+        PlayTransformationSound();
+        ChangeAnimation();
+    }
+
+    void PlayTransformationSound()
+    {
+        GetComponent<AudioSource>().Play();
+    }
+
+    void ChangeAnimation()
+    {
+        gameObject.GetComponent<SpriteRenderer>().sprite = Sprite2;
+    }
+
 }
+
+﻿using UnityEngine;
+using System;
+            ReduceHealthBy(other.gameObject.GetComponent<Skill>().Damage);
+            Destroy(other.gameObject);
