@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212623728035502724}
   - component: {fileID: 50119504604534706}
   - component: {fileID: 114773070862300852}
-  - component: {fileID: 61594880994445380}
+  - component: {fileID: 60451599310795488}
   m_Layer: 0
   m_Name: Seed
   m_TagString: Projectile
@@ -63,8 +63,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &61594880994445380
-BoxCollider2D:
+--- !u!60 &60451599310795488
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -75,8 +75,33 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.2}
+  m_Points:
+    m_Paths:
+    - - {x: 0.01, y: -0.009699999}
+      - {x: 0.0154, y: -0.0069}
+      - {x: 0.016999999, y: -0.0058999998}
+      - {x: 0.021399999, y: -0.0009}
+      - {x: 0.022, y: 0.00029999999}
+      - {x: 0.022, y: 0.0049}
+      - {x: 0.0218, y: 0.0055}
+      - {x: 0.0176, y: 0.009099999}
+      - {x: 0.012999999, y: 0.0117}
+      - {x: 0.008599999, y: 0.0133}
+      - {x: 0.0067999996, y: 0.013499999}
+      - {x: -0.0004, y: 0.013499999}
+      - {x: -0.0023999999, y: 0.0131}
+      - {x: -0.006, y: 0.0109}
+      - {x: -0.009, y: 0.0081}
+      - {x: -0.015199999, y: 0.0018999999}
+      - {x: -0.0184, y: -0.0015}
+      - {x: -0.0206, y: -0.0049}
+      - {x: -0.022, y: -0.0077}
+      - {x: -0.022, y: -0.0111}
+      - {x: -0.0206, y: -0.0123}
+      - {x: -0.0174, y: -0.013499999}
+      - {x: -0.0039999997, y: -0.013499999}
+      - {x: -0.0002, y: -0.0131}
+      - {x: 0.0058, y: -0.0115}
 --- !u!114 &114773070862300852
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -89,9 +114,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UISprite: {fileID: 0}
-  ShootingSprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  ShootingSprite: {fileID: 21300000, guid: 0f64b08ab7372b24fbafa383903ed965, type: 3}
   direction: 0
-  _damage: 0
+  _damage: 1
   _speed: 3
 --- !u!212 &212623728035502724
 SpriteRenderer:
@@ -124,7 +149,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 0f64b08ab7372b24fbafa383903ed965, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

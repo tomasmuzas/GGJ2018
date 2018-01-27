@@ -75,15 +75,15 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     private void FlipLeft()
     {
         direction = Direction.Left;
-        GetComponent<SpriteRenderer>().flipX = true;
+        GetComponent<SpriteRenderer>().flipX = false;
     }
 
     private void FlipRight()
     {
         direction = Direction.Right;
-        GetComponent<SpriteRenderer>().flipX = false;
+        GetComponent<SpriteRenderer>().flipX = true;
     }
 
-    
+
 }
 
