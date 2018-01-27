@@ -75,6 +75,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UISprite: {fileID: 0}
   ShootingSprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  direction: 1
   _damage: 0
   _speed: 3
 --- !u!212 &212623728035502724

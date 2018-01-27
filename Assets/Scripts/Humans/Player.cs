@@ -13,10 +13,12 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     public GameObject PowerUp;
     public GameObject SkillPrefab;
 
-
     [SerializeField]
-    public int HP{ get; private set; }
-    public float Speed { get; set; } 
+    private int _HP;
+    public int HP{ get { return _HP; } set { _HP = value; } }
+    [SerializeField]
+    private float _speed;
+    public float Speed { get { return _speed; } set { _speed = value; } } 
 
     private new Rigidbody2D rigidbody;
 
@@ -36,7 +38,6 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     {
         rigidbody = GetComponent<Rigidbody2D>();
         rigidbody.gravityScale = 0f;
-        Speed = 1f;
     }
 
     private void Update()
@@ -60,12 +61,10 @@ public class Player : MonoBehaviour, IMovable, IHuman {
 
         if (horizontalSpeed > 0)
         {
-            print(horizontalSpeed);
             FlipRight();
         }
         if (horizontalSpeed < 0)
         {
-            print(horizontalSpeed);
             FlipLeft();
         }
 
