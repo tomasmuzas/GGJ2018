@@ -5,6 +5,7 @@ using UnityEngine;
 public class Praeivis : MonoBehaviour
 {
     public double Health = 2;
+    public Sprite Sprite2;
 
     void OnCollisionEnter2D(Collision2D other)
     {
@@ -13,9 +14,9 @@ public class Praeivis : MonoBehaviour
             Health -= other.gameObject.GetComponent<Skill>().Damage;
             if (Health <= 0)
             {
+                gameObject.GetComponent<SpriteRenderer>().sprite = Sprite2;
+                // TODO: Animation/sound
                 Destroy(other.gameObject);
-                // TODO: Become slav
-                Destroy(gameObject);
                 //GetComponent<Collider2D>().enabled = false;
                 //Speed = 0;
                 //anim.SetBool("Dies", true);
