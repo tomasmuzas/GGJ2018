@@ -13,4 +13,9 @@ public class LevelManager : MonoBehaviour {
         highscore = PlayerPrefs.GetInt("highscore", 0);
     }
 
+    public void End()
+    {
+        Debug.Log("Game over.");
+    }
+
 }

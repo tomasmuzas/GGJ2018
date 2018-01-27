@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 114361458456043254}
   m_Layer: 9
   m_Name: Mama
-  m_TagString: Untagged
+  m_TagString: Mama
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  updateRate: 0.005
+  updateRate: 0.5
   seeker: {fileID: 114620599802053962}
   rb: {fileID: 50095649711331518}
   speed: 200

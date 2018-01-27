@@ -101,6 +101,15 @@ public class Player : MonoBehaviour, IMovable, IHuman {
         GetComponent<SpriteRenderer>().flipX = true;
     }
 
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Mama")
+        {
+            // TODO: Animation/sound
+            Destroy(gameObject);
+            GameObject.Find("Main Camera").GetComponent<LevelManager>().End();
+        }
+    }
 
 }
 
