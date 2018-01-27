@@ -14,6 +14,11 @@ public class HealthBar : MonoBehaviour{
 
     public void SetHp(int HP)
     {
+        if (HP == 0)
+        {
+            Camera.main.GetComponent<MamaSpawner>().Spawn();
+        }
+
         foreach (Transform child in healthPanel.transform)
         {
             Destroy(child.gameObject);
