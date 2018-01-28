@@ -33,6 +33,11 @@ public class Pickup : MonoBehaviour
                 player.IncreasHP(GivesHealths);
             }
 
+            if (GivesShotgun)
+            {
+                player.GiveShotgun();
+            }
+
             Destroy(gameObject);
         }
     }

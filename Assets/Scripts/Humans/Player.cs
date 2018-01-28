@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
 public enum Direction
@@ -27,16 +29,53 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     private Animator animator;
 
     public GameObject Mama = null;
+    private bool shotgun;
     public HealthBar HealthBar { get; set; }
+
+    public bool canShoot = true;
+    public float activeTime = 0.025f;
 
     public void Shoot()
     {
-        if(SkillPrefab != null)
+        if(SkillPrefab != null && canShoot)
         {
-            GameObject actualProjectile = Instantiate(SkillPrefab, transform.position, transform.rotation);
-            Skill skillScript = actualProjectile.GetComponent<Skill>();
-            skillScript.direction = this.direction;
+            if (shotgun)
+            {
+                var spread = 0.25f;
+                // Middle
+                GameObject actualProjectile = Instantiate(SkillPrefab, transform.position, transform.rotation);
+                Skill skillScript = actualProjectile.GetComponent<Skill>();
+                skillScript.direction = this.direction;
+
+                // Top
+                var upPosition = transform.position;
+                upPosition.y += spread;
+                actualProjectile = Instantiate(SkillPrefab, upPosition, transform.rotation);
+                skillScript = actualProjectile.GetComponent<Skill>();
+                skillScript.direction = this.direction;
+
+                // Bottom
+                var bottomPosition = transform.position;
+                bottomPosition.y -= spread;
+                actualProjectile = Instantiate(SkillPrefab, bottomPosition, transform.rotation);
+                skillScript = actualProjectile.GetComponent<Skill>();
+                skillScript.direction = this.direction;
+            }
+            else
+            {
+                GameObject actualProjectile = Instantiate(SkillPrefab, transform.position, transform.rotation);
+                Skill skillScript = actualProjectile.GetComponent<Skill>();
+                skillScript.direction = this.direction;
+            }
+            canShoot = false;
+            StartCoroutine(ActivateAgain());
         }
+    }
+
+    public IEnumerator ActivateAgain()
+    {
+        yield return new WaitForSeconds(activeTime);
+        canShoot = true;
     }
 
 
@@ -143,6 +182,11 @@ public class Player : MonoBehaviour, IMovable, IHuman {
             HP = MaxHP;
         }
         HealthBar.SetHp(HP);
+    }
+
+    public void GiveShotgun()
+    {
+        shotgun = true;
     }
 }
 

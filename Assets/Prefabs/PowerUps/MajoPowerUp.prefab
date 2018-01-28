@@ -154,7 +154,7 @@ MonoBehaviour:
   NewSkill: {fileID: 0}
   GivesSpeed: 0
   NewSpeed: 0
-  GivesShotgun: 0
+  GivesShotgun: 1
 --- !u!212 &212578287806889940
 SpriteRenderer:
   m_ObjectHideFlags: 1

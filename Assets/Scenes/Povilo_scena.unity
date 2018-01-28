@@ -1206,6 +1206,11 @@ Prefab:
       propertyPath: MaxHP
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114416383978092250, guid: b02fb34ea4112934abccf7100f3fec97,
+        type: 2}
+      propertyPath: activeTime
+      value: 0.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b02fb34ea4112934abccf7100f3fec97, type: 2}
   m_IsPrefabParent: 0
