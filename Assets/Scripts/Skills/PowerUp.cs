@@ -10,11 +10,20 @@ public class PowerUp : MonoBehaviour, IDamageDealer{
     public double Radius;
     public int durationInSeconds;
     public int tickSpeed;
-    
+
 
     [SerializeField]
     private double _damage;
+
+    private ParticleSystem particles;
     public double Damage { get { return _damage; } private set { _damage = value; } }
+
+    void Start()
+    {
+        particles = GetComponentInChildren<ParticleSystem>();
+        var emision = particles.emission;
+        emision.enabled = false;
+    }
 
     // Activate main effect after the player touches the powerup
     void OnTriggerEnter2D(Collider2D collision)
@@ -46,6 +55,8 @@ public class PowerUp : MonoBehaviour, IDamageDealer{
     // Call all the main effects
     void Activate()
     {
+        var emision = particles.emission;
+        emision.enabled = true;
         PlaySound();
         IncreaseColliderRadius();
         StartDisapperCountdown();

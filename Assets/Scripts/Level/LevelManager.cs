@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour {
@@ -54,6 +55,10 @@ public class LevelManager : MonoBehaviour {
         if (time <= 0)
         {
             GameLose();
+        }
+        if (Input.GetKeyDown("escape"))
+        {
+            SceneManager.LoadScene(0);
         }
     }
 
