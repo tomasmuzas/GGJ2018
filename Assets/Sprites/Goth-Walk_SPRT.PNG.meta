@@ -1,0 +1,746 @@
+fileFormatVersion: 2
+guid: 1a9402e8c15093b48a007a7e71c48582
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Goth-Walk_SPRT_0
+    21300002: Goth-Walk_SPRT_1
+    21300004: Goth-Walk_SPRT_2
+    21300006: Goth-Walk_SPRT_3
+    21300008: Goth-Walk_SPRT_4
+    21300010: Goth-Walk_SPRT_5
+    21300012: Goth-Walk_SPRT_6
+    21300014: Goth-Walk_SPRT_7
+    21300016: Goth-Walk_SPRT_8
+    21300018: Goth-Walk_SPRT_9
+    21300020: Goth-Walk_SPRT_10
+    21300022: Goth-Walk_SPRT_11
+    21300024: Goth-Walk_SPRT_12
+    21300026: Goth-Walk_SPRT_13
+    21300028: Goth-Walk_SPRT_14
+    21300030: Goth-Walk_SPRT_15
+    21300032: Goth-Walk_SPRT_16
+    21300034: Goth-Walk_SPRT_17
+    21300036: Goth-Walk_SPRT_18
+    21300038: Goth-Walk_SPRT_19
+    21300040: Goth-Walk_SPRT_20
+    21300042: Goth-Walk_SPRT_21
+    21300044: Goth-Walk_SPRT_22
+    21300046: Goth-Walk_SPRT_23
+    21300048: Goth-Walk_SPRT_24
+    21300050: Goth-Walk_SPRT_25
+    21300052: Goth-Walk_SPRT_26
+    21300054: Goth-Walk_SPRT_27
+    21300056: Goth-Walk_SPRT_28
+    21300058: Goth-Walk_SPRT_29
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 500
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_0
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 3070
+        width: 292
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d95ec10343cd94cb315792c47af088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_1
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 3070
+        width: 287
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08183a9a01758c542be20b601b7cdf91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_2
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 3068
+        width: 274
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7122a4045f1cd4eac85b3970f53c8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_3
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 3066
+        width: 286
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c6ce76c98d24c4897e643379ddf3a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_4
+      rect:
+        serializedVersion: 2
+        x: 3247
+        y: 3064
+        width: 300
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f715d04cba87484cb6e484587428ad9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_5
+      rect:
+        serializedVersion: 2
+        x: 3989
+        y: 3061
+        width: 312
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2fb908cb3117d43a79474ccd85719b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_6
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2310
+        width: 323
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d250fdc9bc84d946b9b211f8f1ac2d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_7
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 2308
+        width: 333
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77df7b091c16fb84c89afb3180a1d0d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_8
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 2310
+        width: 343
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff4059c277d5ea4da7e412dbf66e3c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_9
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 2310
+        width: 354
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afb3b79e81045c48b8acaa7b3be0c8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_10
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 2314
+        width: 360
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228ed3d24683e634ab74e992b3ac6127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_11
+      rect:
+        serializedVersion: 2
+        x: 3965
+        y: 2314
+        width: 366
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103d629ef36ad984d89210dee8e094d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_12
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1565
+        width: 371
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743315e29c0d8a546bb0d1fbc5b0c064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_13
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1565
+        width: 374
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c43c4334ebb6fc42bcbe53a8b0d1744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_14
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 1565
+        width: 373
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbea716f45a67342adc19587e027465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_15
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 1565
+        width: 374
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55da2d4013163341956f6854f64d687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_16
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 1563
+        width: 375
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3f3e44156dfb845a5e9a3ffdc6ac2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_17
+      rect:
+        serializedVersion: 2
+        x: 3963
+        y: 1559
+        width: 375
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9ecf16765ba194ca61c4896bfeace2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 803
+        width: 384
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9cab1956ccadf40a7fd39908b3f9dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_19
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 797
+        width: 380
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df99ea342314cc469c392de1977bf62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_20
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 796
+        width: 365
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013c59ae82d8f3c4cb213651f9f0793c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_21
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 801
+        width: 355
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d927ea108109b4a95fde15ac948877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_22
+      rect:
+        serializedVersion: 2
+        x: 3238
+        y: 810
+        width: 342
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da69947bacae2e64b824e80cb584a8ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_23
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 821
+        width: 331
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37990dbb839e6284c94b2c6f37df834c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_24
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 78
+        width: 321
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62e9cdcfc950c14ab667c59e09a2bf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_25
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 76
+        width: 308
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597d999c2aaaecf4ab58d8edb59d46d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_26
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 74
+        width: 301
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f29ff0e97e2fe42bab1208985c0c50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_27
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 74
+        width: 298
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bedb3aacb6aaff4882856f94d935519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_28
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 72
+        width: 296
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1e750fe001e304eb444e152e493686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Walk_SPRT_29
+      rect:
+        serializedVersion: 2
+        x: 3996
+        y: 71
+        width: 293
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2af9fcafb41f14fbd21d56efbc593f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bb96f4d7495c0384881f456565ae34f8
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

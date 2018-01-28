@@ -1,0 +1,1943 @@
+fileFormatVersion: 2
+guid: 5f81e2ea4f27b9541b4bf6743efdc892
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Goth-Trans_SPRT_0
+    21300002: Goth-Trans_SPRT_1
+    21300004: Goth-Trans_SPRT_2
+    21300006: Goth-Trans_SPRT_3
+    21300008: Goth-Trans_SPRT_4
+    21300010: Goth-Trans_SPRT_5
+    21300012: Goth-Trans_SPRT_6
+    21300014: Goth-Trans_SPRT_7
+    21300016: Goth-Trans_SPRT_8
+    21300018: Goth-Trans_SPRT_9
+    21300020: Goth-Trans_SPRT_10
+    21300022: Goth-Trans_SPRT_11
+    21300024: Goth-Trans_SPRT_12
+    21300026: Goth-Trans_SPRT_13
+    21300028: Goth-Trans_SPRT_14
+    21300030: Goth-Trans_SPRT_15
+    21300032: Goth-Trans_SPRT_16
+    21300034: Goth-Trans_SPRT_17
+    21300036: Goth-Trans_SPRT_18
+    21300038: Goth-Trans_SPRT_19
+    21300040: Goth-Trans_SPRT_20
+    21300042: Goth-Trans_SPRT_21
+    21300044: Goth-Trans_SPRT_22
+    21300046: Goth-Trans_SPRT_23
+    21300048: Goth-Trans_SPRT_24
+    21300050: Goth-Trans_SPRT_25
+    21300052: Goth-Trans_SPRT_26
+    21300054: Goth-Trans_SPRT_27
+    21300056: Goth-Trans_SPRT_28
+    21300058: Goth-Trans_SPRT_29
+    21300060: Goth-Trans_SPRT_30
+    21300062: Goth-Trans_SPRT_31
+    21300064: Goth-Trans_SPRT_32
+    21300066: Goth-Trans_SPRT_33
+    21300068: Goth-Trans_SPRT_34
+    21300070: Goth-Trans_SPRT_35
+    21300072: Goth-Trans_SPRT_36
+    21300074: Goth-Trans_SPRT_37
+    21300076: Goth-Trans_SPRT_38
+    21300078: Goth-Trans_SPRT_39
+    21300080: Goth-Trans_SPRT_40
+    21300082: Goth-Trans_SPRT_41
+    21300084: Goth-Trans_SPRT_42
+    21300086: Goth-Trans_SPRT_43
+    21300088: Goth-Trans_SPRT_44
+    21300090: Goth-Trans_SPRT_45
+    21300092: Goth-Trans_SPRT_46
+    21300094: Goth-Trans_SPRT_47
+    21300096: Goth-Trans_SPRT_48
+    21300098: Goth-Trans_SPRT_49
+    21300100: Goth-Trans_SPRT_50
+    21300102: Goth-Trans_SPRT_51
+    21300104: Goth-Trans_SPRT_52
+    21300106: Goth-Trans_SPRT_53
+    21300108: Goth-Trans_SPRT_54
+    21300110: Goth-Trans_SPRT_55
+    21300112: Goth-Trans_SPRT_56
+    21300114: Goth-Trans_SPRT_57
+    21300116: Goth-Trans_SPRT_58
+    21300118: Goth-Trans_SPRT_59
+    21300120: Goth-Trans_SPRT_60
+    21300122: Goth-Trans_SPRT_61
+    21300124: Goth-Trans_SPRT_62
+    21300126: Goth-Trans_SPRT_63
+    21300128: Goth-Trans_SPRT_64
+    21300130: Goth-Trans_SPRT_65
+    21300132: Goth-Trans_SPRT_66
+    21300134: Goth-Trans_SPRT_67
+    21300136: Goth-Trans_SPRT_68
+    21300138: Goth-Trans_SPRT_69
+    21300140: Goth-Trans_SPRT_70
+    21300142: Goth-Trans_SPRT_71
+    21300144: Goth-Trans_SPRT_72
+    21300146: Goth-Trans_SPRT_73
+    21300148: Goth-Trans_SPRT_74
+    21300150: Goth-Trans_SPRT_75
+    21300152: Goth-Trans_SPRT_76
+    21300154: Goth-Trans_SPRT_77
+    21300156: Goth-Trans_SPRT_78
+    21300158: Goth-Trans_SPRT_79
+    21300160: Goth-Trans_SPRT_80
+    21300162: Goth-Trans_SPRT_81
+    21300164: Goth-Trans_SPRT_82
+    21300166: Goth-Trans_SPRT_83
+    21300168: Goth-Trans_SPRT_84
+    21300170: Goth-Trans_SPRT_85
+    21300172: Goth-Trans_SPRT_86
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 500
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_0
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 10566
+        width: 302
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff739698ff8aac43ba9d2beb8ccc0ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_1
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 10566
+        width: 301
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609948db148aa0c4cb394e28318e17aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_2
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 10566
+        width: 302
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1360cb750ef7e424fb6c805618356126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_3
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 10566
+        width: 302
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b07f1bb5b925f241bf2f5f727d3b686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_4
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 10561
+        width: 313
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c92882a7b49fb469ca6dc896dc65ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_5
+      rect:
+        serializedVersion: 2
+        x: 3964
+        y: 10561
+        width: 324
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c51cdc8f3ff664e817d397a4a91ad6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 9808
+        width: 346
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99450f75e62b4e5489b8c04c4581a36a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_7
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 9808
+        width: 374
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6143df70c973b4b8221817f3f36717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_8
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 9803
+        width: 395
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d64a00620660147a6e0ab8574df5d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_9
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 9803
+        width: 407
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fea6baf18b95c0438449f8a4d9c66cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_10
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 9803
+        width: 412
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f8e23acfb917842afbb28531c9a28e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_11
+      rect:
+        serializedVersion: 2
+        x: 3882
+        y: 9803
+        width: 406
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6772b9773b6c763438f3a268aa0e6da6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_12
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 9056
+        width: 409
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02308346ed674694eb96672de8fc0ff0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_13
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 9056
+        width: 406
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efabc995d0e5c8241a8448accc03cfcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_14
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 9056
+        width: 407
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1405cabb5b59dc343abc4502b7910da0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_15
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 9056
+        width: 401
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f434fa075b15f4aabb6d0c1439e575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_16
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 9056
+        width: 405
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883f52af2d9afcb4a973ced34a07dbb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_17
+      rect:
+        serializedVersion: 2
+        x: 3882
+        y: 9056
+        width: 406
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7db1bfcc111654fb4eb7c8bf352296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_18
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 8303
+        width: 406
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaebaef92d572e43817a43ead2c7632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_19
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 8303
+        width: 406
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11981a515f2fc434c96da8ff2c810250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_20
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 8303
+        width: 406
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dec6503dc61bf4a8b4b676c8cd0ea4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_21
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 8303
+        width: 406
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fca76dc7f396e54781d60b7b0069807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_22
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 8303
+        width: 412
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f101304b01a76d041b8b319899e87c6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_23
+      rect:
+        serializedVersion: 2
+        x: 3877
+        y: 8303
+        width: 411
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25a0bf8df96e0745a1ff634637a6ca1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_24
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 7556
+        width: 412
+        height: 685
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6027246447ae52b4d86f18e6b6433c70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_25
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 7551
+        width: 412
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb5be364d678414a817fa39d1e569c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_26
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 7551
+        width: 412
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcbb1e531223e7488053bd52b28ed6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_27
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 7551
+        width: 414
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db6bf9eed7ea714bacb04a1c5071072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_28
+      rect:
+        serializedVersion: 2
+        x: 3118
+        y: 7550
+        width: 416
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83192265d8103d145a23c444fca190c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_29
+      rect:
+        serializedVersion: 2
+        x: 3865
+        y: 7550
+        width: 415
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c4408b759b190418b0eda5414ad89d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_30
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 6803
+        width: 412
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a493a15d6f9ab44be1accb152e5eef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_31
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 6803
+        width: 412
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c974c6cb0dc9242a5ffa1bee851c45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_32
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 6803
+        width: 412
+        height: 665
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20d8922e1529b545a4485195bba3bb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_33
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 6803
+        width: 412
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04778a003b2809f46a71fd1babf7c21a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_34
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 6803
+        width: 412
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdf494cc15f7e942807f545bd605c19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_35
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 6803
+        width: 415
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8835d68b844cdc24e9170289e8cb87f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_36
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 6051
+        width: 434
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c1712800817c546a58716c528ab6b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_37
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 6051
+        width: 450
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66a634906c07394985aa88b01cdc87e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_38
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 6051
+        width: 467
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85228dd3d69f1545a02a34ad945d434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_39
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 6051
+        width: 483
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd0b16a4e6ee2e43aa4577ae88eb3b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_40
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 6051
+        width: 500
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd84a429370deda42be2c82e78d4a76a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_41
+      rect:
+        serializedVersion: 2
+        x: 3827
+        y: 6051
+        width: 511
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354e62856cb039149a2171f3b5f22dd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_42
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 5300
+        width: 516
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9791eb2524bb4ac4daea5c0160a1986c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_43
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 5301
+        width: 511
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf644fc7f3e5d0c4ea99245e5aa12aaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_44
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 5301
+        width: 505
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7338559b293f594685be68a65f33568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_45
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 5301
+        width: 494
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd826bb2759fa6a4eb6ef04322ee7f31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_46
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 5301
+        width: 489
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bdebeeb0b5efd4e9f69548b97c0e82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_47
+      rect:
+        serializedVersion: 2
+        x: 3821
+        y: 5301
+        width: 495
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f5c7117dba5e049a471aade72ef5df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_48
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 4551
+        width: 495
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a89a7be3b08a004a811e3aaeab56e7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_49
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 4551
+        width: 503
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bf4081f67fcc642af35c7f756281b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_50
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 4551
+        width: 500
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90362a32057cafd44a560212fa177ae2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_51
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 4551
+        width: 500
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe4208a5209d97498ef6484593edccf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_52
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 4551
+        width: 505
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed8b6652cfc99248bb6c0d8a45576a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_53
+      rect:
+        serializedVersion: 2
+        x: 3827
+        y: 4551
+        width: 505
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4551df4999e6dcb4aae3edd530f90b2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_54
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3800
+        width: 505
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e96f096b0e5e94a98ccffc39b6ffe3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_55
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 3799
+        width: 505
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e203b0ece2ef148a48cf7a1fdb7f7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_56
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 3800
+        width: 505
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cccb8c75ded0d240889f8e2151622e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_57
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 3799
+        width: 505
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f7a9643af8ca74a96059dae9178f04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_58
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3799
+        width: 500
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41474ed6f02dd54f8793384f126e068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_59
+      rect:
+        serializedVersion: 2
+        x: 3827
+        y: 3799
+        width: 494
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2816e320a2758e246badab05cae44691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_60
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 3052
+        width: 494
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042c08d1be3d19845be17bc6b8138981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_61
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 3051
+        width: 489
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f0a93ef3ba62b43b5dd6efa353579f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_62
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 3052
+        width: 493
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc1ad5239aedbd458b1f46353bc4cee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_63
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 3052
+        width: 495
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976d5073c5e45044db4d912303d39fbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_64
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 3052
+        width: 500
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3fc3765e373f94da19846a374c16bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_65
+      rect:
+        serializedVersion: 2
+        x: 3827
+        y: 3052
+        width: 500
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68055336169b6d444b083edf71a52342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_66
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2299
+        width: 505
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be65607ab6069b0448612faff62e78e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_67
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 2299
+        width: 505
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b672e81046f55458b635003abe69ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_68
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 2300
+        width: 484
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7d35a1d4c25d549b19af9f01d3e17d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_69
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 2304
+        width: 443
+        height: 570
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5c0ffb76e6dd4429e396553116e951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_70
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 2304
+        width: 395
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3dda94aef2b8544aa5127479579af8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_71
+      rect:
+        serializedVersion: 2
+        x: 3915
+        y: 2304
+        width: 346
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0668093967139f448a35e5065f2246d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_72
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1557
+        width: 307
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22141631807366c4ba77cb60472c38a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_73
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1557
+        width: 301
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd93a8d9973870742a31c7346463fc2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_74
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 1557
+        width: 290
+        height: 665
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05f564fde1b35641b760b22fa0b7b05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_75
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 1557
+        width: 280
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820513619d761504fb92f783ae345016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_76
+      rect:
+        serializedVersion: 2
+        x: 3261
+        y: 1557
+        width: 275
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0015e08d059fb0d419b343505cbdb975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_77
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 1557
+        width: 280
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e74d789681c5e4c9c7b613f7648ab1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 805
+        width: 285
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a662dbcd4a3134eac4c67b6ec9f13c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_79
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 795
+        width: 311
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bf9be61493ac146b2f58e405dc83d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_80
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 789
+        width: 334
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059b4b04a96c3a04e83b14c3f0e25c6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_81
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 780
+        width: 359
+        height: 725
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b2f96306cefd44f8b3605f42d272d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_82
+      rect:
+        serializedVersion: 2
+        x: 3191
+        y: 775
+        width: 380
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f196d3638032b1b46b35b267bdada764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_83
+      rect:
+        serializedVersion: 2
+        x: 3927
+        y: 769
+        width: 397
+        height: 737
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8096c6b53f635844a3f685897a34019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_84
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 15
+        width: 413
+        height: 740
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc13b16c570b82f489d6b8b6516806d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_85
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 6
+        width: 434
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ce3dcaa7d8cfc4c99a25b926ee2353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Trans_SPRT_86
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 0
+        width: 444
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daef7194d5863d445883289223ca01ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0a9457697e88bb943a22fe012bc553b5
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
