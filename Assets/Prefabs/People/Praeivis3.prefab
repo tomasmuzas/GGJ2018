@@ -24,8 +24,9 @@ GameObject:
   - component: {fileID: 50095649711331518}
   - component: {fileID: 114349036706962664}
   - component: {fileID: 114973955525783136}
-  - component: {fileID: 58426321380949982}
   - component: {fileID: 82809397238598396}
+  - component: {fileID: 95296320283787428}
+  - component: {fileID: 70144716940463948}
   m_Layer: 9
   m_Name: Praeivis3
   m_TagString: Praeivis
@@ -66,8 +67,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!58 &58426321380949982
-CircleCollider2D:
+--- !u!70 &70144716940463948
+CapsuleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -79,8 +80,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.3
+  m_Size: {x: 0.42533332, y: 0.972}
+  m_Direction: 0
 --- !u!82 &82809397238598396
 AudioSource:
   m_ObjectHideFlags: 1
@@ -176,6 +177,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!95 &95296320283787428
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1387851455575952}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c8d47824c3d739c4fae2e1151d367600, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114349036706962664
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -196,6 +215,7 @@ MonoBehaviour:
   pathIsEnded: 0
   nextWaypointDistance: 3
   recalculating: 0
+  direction: 0
 --- !u!114 &114620599802053962
 MonoBehaviour:
   m_ObjectHideFlags: 1

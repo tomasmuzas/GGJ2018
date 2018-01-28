@@ -6,7 +6,7 @@ public enum Direction
     Left, Right
 }
 
-
+[RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour, IMovable, IHuman {
 
@@ -23,6 +23,7 @@ public class Player : MonoBehaviour, IMovable, IHuman {
 
 
     private new Rigidbody2D rigidbody;
+    private Animator animator;
 
     public GameObject Mama = null;
     public HealthBar HealthBar { get; set; }
@@ -44,6 +45,8 @@ public class Player : MonoBehaviour, IMovable, IHuman {
         rigidbody.gravityScale = 0f;
         HealthBar = GameObject.Find("HealthBarManager").GetComponent<HealthBar>();
         HealthBar.SetHp(HP);
+        animator = GetComponent<Animator>();
+
     }
 
 
@@ -76,15 +79,29 @@ public class Player : MonoBehaviour, IMovable, IHuman {
             horizontalSpeed = Input.GetAxis("Horizontal");
         }
 
+        if (verticalSpeed > 0 || verticalSpeed < 0)
+        {
+            animator.SetBool("Walking", true);
+        }
+        if(verticalSpeed == 0)
+        {
+            animator.SetBool("Walking", false);
+        }
+
         if (horizontalSpeed > 0)
         {
+            animator.SetBool("Walking", true);
             FlipRight();
         }
         if (horizontalSpeed < 0)
         {
+            animator.SetBool("Walking", true);
             FlipLeft();
         }
-
+        if (horizontalSpeed == 0)
+        {
+            animator.SetBool("Walking", false);
+        }
         rigidbody.velocity = new Vector2(horizontalSpeed * Speed, verticalSpeed * Speed);
     }
 

@@ -1,0 +1,746 @@
+fileFormatVersion: 2
+guid: 29fb1d56338380d48a49ed700bb6916a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Goth-Dance_SPRT_0
+    21300002: Goth-Dance_SPRT_1
+    21300004: Goth-Dance_SPRT_2
+    21300006: Goth-Dance_SPRT_3
+    21300008: Goth-Dance_SPRT_4
+    21300010: Goth-Dance_SPRT_5
+    21300012: Goth-Dance_SPRT_6
+    21300014: Goth-Dance_SPRT_7
+    21300016: Goth-Dance_SPRT_8
+    21300018: Goth-Dance_SPRT_9
+    21300020: Goth-Dance_SPRT_10
+    21300022: Goth-Dance_SPRT_11
+    21300024: Goth-Dance_SPRT_12
+    21300026: Goth-Dance_SPRT_13
+    21300028: Goth-Dance_SPRT_14
+    21300030: Goth-Dance_SPRT_15
+    21300032: Goth-Dance_SPRT_16
+    21300034: Goth-Dance_SPRT_17
+    21300036: Goth-Dance_SPRT_18
+    21300038: Goth-Dance_SPRT_19
+    21300040: Goth-Dance_SPRT_20
+    21300042: Goth-Dance_SPRT_21
+    21300044: Goth-Dance_SPRT_22
+    21300046: Goth-Dance_SPRT_23
+    21300048: Goth-Dance_SPRT_24
+    21300050: Goth-Dance_SPRT_25
+    21300052: Goth-Dance_SPRT_26
+    21300054: Goth-Dance_SPRT_27
+    21300056: Goth-Dance_SPRT_28
+    21300058: Goth-Dance_SPRT_29
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 500
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_0
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 3001
+        width: 439
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f13703aaa4c0b449297515f40306b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_1
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 3008
+        width: 417
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24b56beff9fdca418ef4964d316ecd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_2
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 3023
+        width: 393
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55af664fa2ce9ac4ebc8c0f40bfeec13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_3
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 3025
+        width: 363
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2825389148ab34ea537cf4a02103e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_4
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 3025
+        width: 323
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8266197ab549a74b9710607d95f5014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_5
+      rect:
+        serializedVersion: 2
+        x: 4001
+        y: 3030
+        width: 289
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bbed67088530144b79fadfd8cf3186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_6
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 2287
+        width: 285
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c65e0cb91a9d649aa2acb486fc52cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_7
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 2296
+        width: 283
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68ae87a32aa8b84287fd91d083e7c04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_8
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 2305
+        width: 281
+        height: 606
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38eb39730993cc54aa84ffc6abe2fa8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_9
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 2313
+        width: 309
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e603a83f2a207d468e54cc2009dedee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_10
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 2321
+        width: 338
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a40d99e39ab86f43965303187d56bc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_11
+      rect:
+        serializedVersion: 2
+        x: 3972
+        y: 2323
+        width: 369
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb1de42d19495b4bb138afcea11974a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_12
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1574
+        width: 400
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f173816a7d095d64cace2709dab78944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_13
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1574
+        width: 435
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7515df01f9aa1d24f9b4bc52759f4ae9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_14
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1574
+        width: 454
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9797569be8c2e428043420e3797935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_15
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 1572
+        width: 461
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28574ea9e8d00f44a50baebf994072f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_16
+      rect:
+        serializedVersion: 2
+        x: 3196
+        y: 1570
+        width: 441
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192be332bf2860e46951b7db4c67d875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_17
+      rect:
+        serializedVersion: 2
+        x: 3967
+        y: 1576
+        width: 391
+        height: 606
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff86823fc25550478fded5cc1fb7876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_18
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 810
+        width: 338
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533242dbea0c3204f977a97c81011fb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_19
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 810
+        width: 282
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d98490ab487e3047a248d9a87b5b0b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_20
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 812
+        width: 244
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a3060517d5f6447991804722839b3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_21
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 812
+        width: 235
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4aa406539b0a5409656339d5a6e1b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_22
+      rect:
+        serializedVersion: 2
+        x: 3257
+        y: 812
+        width: 244
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11e885dd8dc97c42acc23efe50c3aec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_23
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 812
+        width: 259
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2f9e1f4698e664882bbc7088943cf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_24
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 63
+        width: 275
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b600f8a7b9e03d408213435e538c769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_25
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 63
+        width: 287
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e67839ee711db41a6eb8c2e4414849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_26
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 63
+        width: 296
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37233d2aa860bc43a1f6e65813f2774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_27
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 63
+        width: 301
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f560a22faf8e4845aeae7588b5acc96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_28
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 63
+        width: 314
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f545ad18c33fe154a961136a7ee49d94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goth-Dance_SPRT_29
+      rect:
+        serializedVersion: 2
+        x: 3958
+        y: 65
+        width: 323
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00c96cd58dd5ac45a1674a4b5d20094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 28592e1e6246b4744b89ff5569b09222
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
