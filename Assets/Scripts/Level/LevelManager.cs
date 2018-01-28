@@ -66,6 +66,7 @@ public class LevelManager : MonoBehaviour {
         Time.timeScale = 0.0F;
         GameOver.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
         GameOver.gameObject.SetActive(true);
+        GetComponent<AudioSource>().Play();
     }
 
     public void GameWin()
