@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour {
@@ -9,7 +10,7 @@ public class LevelManager : MonoBehaviour {
     public static int slavCountRemaining = 0;
     public int slavCountNeeded = 15;
 
-    public Text transmittedText;
+    public Image progressBar;
     public int timeRemaining = 20;
     public GameObject GameOver;
     public GameObject GameWinCanvas;
@@ -24,7 +25,6 @@ public class LevelManager : MonoBehaviour {
         GameOver.gameObject.SetActive(false);
         GameWinCanvas = GameObject.Find("GameWin");
         GameWinCanvas.gameObject.SetActive(false);
-        transmittedText = GameObject.Find("TransmittedText").GetComponent<Text>();
 
         scoreText = GameObject.Find("CurrentScore").GetComponent<Text>();
         scoreText.text = 0.ToString(); // TODO: Keep between levels
@@ -38,7 +38,7 @@ public class LevelManager : MonoBehaviour {
         scoreText.text = score.ToString();
 
         slavCountCurrent++;
-        transmittedText.text = slavCountCurrent + "/" + slavCountNeeded;
+        progressBar.fillAmount =  (float)slavCountCurrent / slavCountNeeded;
 
         if (slavCountCurrent >= slavCountNeeded)
         {
@@ -49,7 +49,7 @@ public class LevelManager : MonoBehaviour {
     void Update()
     {
         var time = (int)Mathf.Floor(timeRemaining - Time.timeSinceLevelLoad);
-        GameObject.Find("TimeLeft").GetComponent<Text>().text = time.ToString();
+        GameObject.Find("TimeLeft").GetComponent<Text>().text = String.Format("{0}:{1:00}", time / 60, time % 60);
 
         if (time <= 0)
         {
