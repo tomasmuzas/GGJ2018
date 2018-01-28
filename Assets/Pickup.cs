@@ -15,8 +15,8 @@ public class Pickup : MonoBehaviour
     public GameObject NewSkill;
 
     // Kebab gives speed
-    public bool GivesSpeed;
-    public float NewSpeed;
+    public bool GivesTime;
+    public int TimeGiven;
 
     // Majo gives shotgun
     public bool GivesShotgun;
@@ -36,6 +36,11 @@ public class Pickup : MonoBehaviour
             if (GivesShotgun)
             {
                 player.GiveShotgun();
+            }
+
+            if (GivesTime)
+            {
+                GameObject.Find("Main Camera").GetComponent<LevelManager>().GiveTime(TimeGiven);
             }
 
             Destroy(gameObject);

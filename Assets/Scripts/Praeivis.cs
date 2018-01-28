@@ -57,7 +57,7 @@ public class Praeivis : MonoBehaviour
             GameObject.Find("Main Camera").GetComponent<LevelManager>().AddScore(this);
             scoreGiven = true;
         }
-        gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+        //gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
         PlayTransformationSound();
         ChangeAnimation();
     }
@@ -69,7 +69,7 @@ public class Praeivis : MonoBehaviour
             GetComponent<AudioSource>().Play();
             hasPlayedSound = true;
         }
-        
+
     }
 
     void ChangeAnimation()

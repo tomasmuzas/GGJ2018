@@ -59,7 +59,13 @@ public class LevelManager : MonoBehaviour {
         if (Input.GetKeyDown("escape"))
         {
             SceneManager.LoadScene(0);
+            Time.timeScale = 1F;
         }
+    }
+
+    public void GiveTime(int count)
+    {
+        timeRemaining += count;
     }
 
     public void GameLose()

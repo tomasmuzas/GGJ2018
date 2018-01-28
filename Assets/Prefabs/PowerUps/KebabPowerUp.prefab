@@ -152,8 +152,8 @@ MonoBehaviour:
   GivesHealths: 0
   GivesSkill: 0
   NewSkill: {fileID: 0}
-  GivesSpeed: 0
-  NewSpeed: 0
+  GivesTime: 1
+  TimeGiven: 10
   GivesShotgun: 0
 --- !u!212 &212578287806889940
 SpriteRenderer:
