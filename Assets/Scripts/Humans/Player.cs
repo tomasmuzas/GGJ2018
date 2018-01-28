@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityStandardAssets.CrossPlatformInput;
 
 public enum Direction
@@ -192,6 +193,8 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     public void GiveSkill(GameObject newSkill)
     {
         SkillPrefab = newSkill;
+        GameObject.Find("JumpButton").GetComponent<Image>().sprite =
+            newSkill.GetComponent<Skill>().UISprite;
     }
 }
 

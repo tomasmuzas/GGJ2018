@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4493403463365210}
   - component: {fileID: 50119504604534706}
   - component: {fileID: 114773070862300852}
-  - component: {fileID: 60451599310795488}
   - component: {fileID: 82485326343604450}
   - component: {fileID: 212022680497415038}
+  - component: {fileID: 70868398070208168}
   m_Layer: 10
   m_Name: Vodka
   m_TagString: Projectile
@@ -38,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1450243771525818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.9405675, y: -0.6348049, z: 0}
+  m_LocalPosition: {x: 3.808675, y: 8.4899435, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -64,8 +64,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60451599310795488
-PolygonCollider2D:
+--- !u!70 &70868398070208168
+CapsuleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -76,33 +76,8 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
-  m_Points:
-    m_Paths:
-    - - {x: 0.01, y: -0.009699999}
-      - {x: 0.0154, y: -0.0069}
-      - {x: 0.016999999, y: -0.0058999998}
-      - {x: 0.021399999, y: -0.0009}
-      - {x: 0.022, y: 0.00029999999}
-      - {x: 0.022, y: 0.0049}
-      - {x: 0.0218, y: 0.0055}
-      - {x: 0.0176, y: 0.009099999}
-      - {x: 0.012999999, y: 0.0117}
-      - {x: 0.008599999, y: 0.0133}
-      - {x: 0.0067999996, y: 0.013499999}
-      - {x: -0.0004, y: 0.013499999}
-      - {x: -0.0023999999, y: 0.0131}
-      - {x: -0.006, y: 0.0109}
-      - {x: -0.009, y: 0.0081}
-      - {x: -0.015199999, y: 0.0018999999}
-      - {x: -0.0184, y: -0.0015}
-      - {x: -0.0206, y: -0.0049}
-      - {x: -0.022, y: -0.0077}
-      - {x: -0.022, y: -0.0111}
-      - {x: -0.0206, y: -0.0123}
-      - {x: -0.0174, y: -0.013499999}
-      - {x: -0.0039999997, y: -0.013499999}
-      - {x: -0.0002, y: -0.0131}
-      - {x: 0.0058, y: -0.0115}
+  m_Size: {x: 0.044, y: 0.027}
+  m_Direction: 0
 --- !u!82 &82485326343604450
 AudioSource:
   m_ObjectHideFlags: 1
