@@ -43,6 +43,11 @@ public class Pickup : MonoBehaviour
                 GameObject.Find("Main Camera").GetComponent<LevelManager>().GiveTime(TimeGiven);
             }
 
+            if (GivesSkill)
+            {
+                player.GiveSkill(NewSkill);
+            }
+
             Destroy(gameObject);
         }
     }

@@ -188,5 +188,10 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     {
         shotgun = true;
     }
+
+    public void GiveSkill(GameObject newSkill)
+    {
+        SkillPrefab = newSkill;
+    }
 }
 
