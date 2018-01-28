@@ -4,11 +4,22 @@ using UnityEngine;
 
 public class Pickup : MonoBehaviour
 {
+
+    // Kompot gives 1 live
+    // Saslik gives full life
     public bool GiveHealth;
     public int GivesHealths;
+
+    // Vodka changes skill
     public bool GivesSkill;
     public GameObject NewSkill;
-    // Vodke
+
+    // Kebab gives speed
+    public bool GivesSpeed;
+    public float NewSpeed;
+
+    // Majo gives shotgun
+    public bool GivesShotgun;
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -17,7 +28,10 @@ public class Pickup : MonoBehaviour
             PlaySound();
             // set player stuff
             var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-
+            if (GiveHealth)
+            {
+                player.IncreasHP(GivesHealths);
+            }
 
             Destroy(gameObject);
         }

@@ -148,6 +148,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4386271893723a644ae6fda6501913fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GiveHealth: 1
+  GivesHealths: 1
+  GivesSkill: 0
+  NewSkill: {fileID: 0}
+  GivesSpeed: 0
+  NewSpeed: 0
+  GivesShotgun: 0
 --- !u!212 &212578287806889940
 SpriteRenderer:
   m_ObjectHideFlags: 1

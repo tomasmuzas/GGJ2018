@@ -14,7 +14,8 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     public GameObject PowerUp;
     public GameObject SkillPrefab;
 
-    [SerializeField]
+    public int MaxHP;
+
     private int _HP;
     public int HP{ get { return _HP; } set { _HP = value; } }
     [SerializeField]
@@ -44,7 +45,8 @@ public class Player : MonoBehaviour, IMovable, IHuman {
         rigidbody = GetComponent<Rigidbody2D>();
         rigidbody.gravityScale = 0f;
         HealthBar = GameObject.Find("HealthBarManager").GetComponent<HealthBar>();
-        HealthBar.SetHp(HP);
+        HealthBar.SetHp(MaxHP);
+        HP = MaxHP;
         animator = GetComponent<Animator>();
 
     }
@@ -130,6 +132,16 @@ public class Player : MonoBehaviour, IMovable, IHuman {
     public void DecreaseHP()
     {
         HP--;
+        HealthBar.SetHp(HP);
+    }
+
+    public void IncreasHP(int count)
+    {
+        HP += count;
+        if (HP > MaxHP)
+        {
+            HP = MaxHP;
+        }
         HealthBar.SetHp(HP);
     }
 }
