@@ -210,7 +210,7 @@ MonoBehaviour:
   updateRate: 0.01
   seeker: {fileID: 114620599802053962}
   rb: {fileID: 50095649711331518}
-  speed: 50
+  speed: 10
   fMode: 0
   pathIsEnded: 0
   nextWaypointDistance: 3
