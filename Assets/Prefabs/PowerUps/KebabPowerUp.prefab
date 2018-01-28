@@ -19,10 +19,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4810718790587146}
-  - component: {fileID: 114192780053543504}
   - component: {fileID: 212578287806889940}
   - component: {fileID: 58295502385672512}
   - component: {fileID: 82472212440199420}
+  - component: {fileID: 114000203350919112}
   m_Layer: 0
   m_Name: KebabPowerUp
   m_TagString: Projectile
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1279938097301030}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 1.13, y: 9.03, z: -1}
+  m_LocalPosition: {x: 7.72, y: 5.45, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -56,7 +56,7 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5515
+  m_Radius: 0.46
 --- !u!82 &82472212440199420
 AudioSource:
   m_ObjectHideFlags: 1
@@ -66,7 +66,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5dbfbb9267db373469c41666810a00a7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 101f0cb2da5d71a478bdf7e8e4830c95, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -137,7 +137,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114192780053543504
+--- !u!114 &114000203350919112
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -145,14 +145,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1279938097301030}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6259ba15883235c49979af31420cfa7a, type: 3}
+  m_Script: {fileID: 11500000, guid: 4386271893723a644ae6fda6501913fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enabled: 0
-  Radius: 3
-  durationInSeconds: 20
-  tickSpeed: 1
-  _damage: 1
 --- !u!212 &212578287806889940
 SpriteRenderer:
   m_ObjectHideFlags: 1

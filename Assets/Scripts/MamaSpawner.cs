@@ -26,7 +26,7 @@ public class MamaSpawner : MonoBehaviour
         var laiptine = Laiptines[Random.Range(0, Laiptines.Length - 1)];
 
         var mama = Instantiate(MamaPrefab, laiptine.transform.position, Quaternion.identity);
-        Player.GetComponent<Player>().Mama = mama;
+        //Player.GetComponent<Player>().Mama = mama;
         mama.GetComponent<PraeivisMovement>().target = Player.transform;
     }
 }
