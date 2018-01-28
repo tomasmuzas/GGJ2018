@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour {
     public static int slavCountRemaining = 0;
     public int slavCountNeeded = 15;
 
-    public Text transmittedText;
+    public GameObject progressBar;
     public int timeRemaining = 20;
     public GameObject GameOver;
     public GameObject GameWinCanvas;
@@ -24,7 +24,6 @@ public class LevelManager : MonoBehaviour {
         GameOver.gameObject.SetActive(false);
         GameWinCanvas = GameObject.Find("GameWin");
         GameWinCanvas.gameObject.SetActive(false);
-        transmittedText = GameObject.Find("TransmittedText").GetComponent<Text>();
 
         scoreText = GameObject.Find("CurrentScore").GetComponent<Text>();
         scoreText.text = 0.ToString(); // TODO: Keep between levels
@@ -38,7 +37,7 @@ public class LevelManager : MonoBehaviour {
         scoreText.text = score.ToString();
 
         slavCountCurrent++;
-        transmittedText.text = slavCountCurrent + "/" + slavCountNeeded;
+        progressBar.GetComponentInChildren<Image>().fillAmount =  slavCountCurrent / slavCountNeeded;
 
         if (slavCountCurrent >= slavCountNeeded)
         {
