@@ -73,6 +73,7 @@ public class LevelManager : MonoBehaviour {
         if (score > highscore)
         {
             PlayerPrefs.SetInt("highscore", score);
+            PlayGames.AddScoreToLeaderBoard(GPGSIds.leaderboard_score, score);
         }
         Time.timeScale = 0.0F;
         GameOver.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
@@ -85,6 +86,7 @@ public class LevelManager : MonoBehaviour {
         if (score > highscore)
         {
             PlayerPrefs.SetInt("highscore", score);
+            PlayGames.AddScoreToLeaderBoard(GPGSIds.leaderboard_score, score);
         }
         Time.timeScale = 0.0F;
         GameWinCanvas.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
